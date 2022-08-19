@@ -9,8 +9,15 @@ const Plant = require('./plant')
 const db = require('../../config/db')
 
 const startPlants = [
-    {name: "", description: "", light: 2, water: "", temperature: "", poisonous: "", image: ""},
-    
+    {
+    name: "", 
+    description: "", 
+    light: "", 
+    water: "", 
+    temperature: "", 
+    poisonous: "", 
+    image: ""
+    },
 ]
 
 // first we need to connect to the database

@@ -190,94 +190,94 @@ const startPlants = [
         image: "https://www.houseplant411.com/wp-content/uploads/Birds-Nest-Asplenium-nidus-10-1-248x235.jpg"
     },
     {
-        name: "", 
-        description: "", 
-        light: "", 
-        water: "", 
-        temperature: "", 
-        poisonous: "", 
-        image: ""
+        name: "Bleeding Heart VIne", 
+        description: "A Bleeding Heart plant, native to tropical west Africa, is grown for its masses of beautiful bi-colored flowers. Each flower on a Bleeding Heart plant is made up of a corolla or inner group of bright red petals that emerge from a white calyx or outer part of the flower. The Bleeding Heart plant’s nickname, the “Bag Plant” refers to the shape of the outer white petals. When planted in a container, a Bleeding Heart Plant can grow up to 3 feet in length, outside in tropical areas, it often reaches 15 feet. This lovely plant has twining stems with large attractive dark green leaves. You can place a trellis in your container to help a Bleeding Heart plant grow tall or place it in a hanging basket.", 
+        light: "A Bleeding Heart plant loves very bright light but no direct sun. The brighter the light, the more blossoms a Bleeding Heart Vine produces.", 
+        water: "Keep the soil of a Bleeding Heart plant moist in the spring and summer but not soggy. When a Bleeding Heart plant is resting in the fall and winter, place it in a cool location and water infrequently. Never use ice cold water.", 
+        temperature: "A Bleeding Heart does well in regular household temperatures in the spring and summer, but likes cooler temperatures between 55°-60°F (12.8°C-15.6°C) when it is resting in the late fall and winter.", 
+        poisonous: "Bleeding Heart Plants are poisonous houseplants with a level #3 toxicity. Quite a bit of the plant needs to be eaten before there is a serious problem. However, small children, small dogs, and other pets should be kept away from this plant.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/800px-Bleeding_Heart_Vine_Clerodendrum_thomsoniae-256x144.jpg"
     },
     {
-        name: "", 
-        description: "", 
-        light: "", 
-        water: "", 
-        temperature: "", 
-        poisonous: "", 
-        image: ""
+        name: "Boston Fern", 
+        description: "The wide- spreading Boston fern, with its long, arching fronds looks beautiful in hanging baskets. The fronds or leaves can be 2-3 feet long and 4-6 inches wide. Each frond has small leaflets (pinnae) on either side of a midrib. The leaflets have slightly serrated edges and a deltoid shape.", 
+        light: "How much light does a Boston fern need: Bright, indirect light helps the plant grow well. Placing a Boston fern in front of a window with a northern exposure allows it to get sufficient light, but not so much that the leaves lose their vibrant green color. Keep the plant out of direct sun.", 
+        water: "How much water for a Boston fern: Allow the top 30% of the soil to dry-out before watering. The fronds or leaves may turn a pale green which indicates the fern needs water. Yellow, limp, rotting fronds, especially in the center of a Boston fern, mean the plant is being over-watered. Crispy leaves indicate the fern needs more water. Using \"hard water\" causes unsightly white marks on the fronds. A Boston fern is more drought-resistant than most ferns, so when in doubt, don't water.", 
+        temperature: "Best temperature for a Boston fern: Temperature should be 60°-70°F (15.6-21.1°C). Keep all varieties of indoor ferns away from heat sources such as fireplaces and heaters. If the temperature drops below 50°F (10°C) or goes above 90°F (32.2°C), it may damage the leaves.", 
+        poisonous: "Is a Boston fern poisonous: Ferns are non- poisonous and are safe to have around small children, cats, dogs, and other pets.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/Nephrolepis-exaltata-08-256x253-1-238x235.jpg"
     },
     {
-        name: "", 
-        description: "", 
-        light: "", 
-        water: "", 
-        temperature: "", 
-        poisonous: "", 
-        image: ""
+        name: "Bougainvillea Plant", 
+        description: "A bougainvillea plant is native to the rain forests of Brazil, Peru, and southern Argentina. Bougainvillea plants, with their thorny, woody, tropical vines, produce beautiful clusters of red, pink, orange, white, yellow, purple, and magenta paper-like bracts. The colorful bracts surround the actual flower, which is usually small and white. Bougainvillea flowers appear on branches 18″-20″ long.", 
+        light: "A Bougainvillea Plant needs bright full sun for at least 5-6 hours every day in order to bloom. Lack of light is the main reason why a Bougainvillea Plant doesn’t flower indoors. Keep a Bougainvillea These plants need at least 5 hours of sun to grow and flower indoors. Place as close to a south or west facing window as possible.", 
+        water: "Bougainvillea is a drought tolerant plant that should be kept on the dry side. Allow the top 50% of the soil to dry out before watering. A bougainvillea may even wilt a little to let you know it needs water. When you do water a bougainvillea plant, water deeply and cover the entire surface of the soil. Good drainage is essential and a bougainvillea should never sit in water. Frequent light waterings encourages weak roots and discourages good flower color. During the winter, a bougainvillea requires even less water. If over-watered bougainvillea plants develop root rot, do not flower, and drop leaves. If the soil totally dries out, bracts and leaves fall off.", 
+        temperature: "A bougainvillea does well in temperatures between 70°-85°F during the day and 60°-70°F at night. When resting during the winter, Bougainvilleas prefer temperatures between 50°-60°F.", 
+        poisonous: "A Bougainvillea Plant is a very poisonous houseplant and has a #3 Toxicity level. The sap from a Bougainvillea can cause a rash that resembles poison ivy so be sure to wear gloves when pruning this plant.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/Bougainvillea-Pink-10-1-256x178.jpg"
     },
     {
-        name: "", 
-        description: "", 
-        light: "", 
-        water: "", 
-        temperature: "", 
-        poisonous: "", 
-        image: ""
+        name: "Bromeliad Plant – Silver Vase", 
+        description: "A Bromeliad plant (Aechmea fasciata), sometimes called a Silver Vase plant or Urn plant, is an easy care flowering plant native to Brazil. In nature, it is an epiphytic plant, which means it grows on other plants or trees. This bromeliad variety has thick, arching, gray-green leaves.These unique leaves are arranged in a circular fashion so that they form an upturned waxy cup in the center. This central cup, or reservoir collects the water and nutrients that the plant needs. After three or four years, as a Bromeliad fasciata matures, the plant produces a tall flower stalk with numerous pink bracts.", 
+        light: "A Bromelia fasciata (Silvr Vase Plant) requires very bright light in order to flower. Once the pink bracts appear, move the plant to lower light to prolong the colorful bracts.", 
+        water: "Keep the “cup” of this type of bromeliad filled with fresh water. Clean the cup weekly and replace the water with clean water to prevent diseases, gnats, and mosquitos. Dampen the soil and do not water again until the top 1/2” of soil has dried out. Never allow the soil to totally dry out and never use hard water. The lime in hard water disfigures the leaves. These plants have a very small root system so be careful not to over-water.", 
+        temperature: "The colorful bracts last longer if you keep the temperature between 6o°-75° F (17°- 24° C). Aechmea fasciatas can survive colder temperatures than other bromeliads.", 
+        poisonous: "Although considered a non- poisonous houseplant, a bromeliad contains substances that may cause skin irritations and contact dermatitis in some people and pets.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/Aechmea-fasciata-158x152.jpg"
     },
     {
-        name: "", 
-        description: "", 
-        light: "", 
-        water: "", 
-        temperature: "", 
-        poisonous: "", 
-        image: ""
+        name: "Bromeliad Plant- Guzmania", 
+        description: "If you’re tired of buying expensive cut flower arrangements for your dining room table or the reception desk in your office, think about using an easy care Bromeliad plant. There are over 2500 species of bromeliads that are native to North, Central and South America. My favorites varieties of bromeliads are: neoregelia, aechmea, and guzmania. A Bromeliad guzmania plant has long, thin, green. leathery leaves. Brightly colored flowers, really bracts, that can be red, yellow, orange, or even deep purple grow from the center of the plant.", 
+        light: "A bromeliad plant is very adaptable to all types of light, and there is a bromeliad plant variety for every light condition. If your bromeliad plant has thin green leaves it can survive in low light. If a bromeliad plant has thick gray leaves, it needs medium light. The flowers (colorful “bracts”) of a bromeliad plant fade quickly and the leaves turn pale green when it's placed in very bright light. The leaves of a bromeliad plant get further apart and turn dark green when the plant needs more light.", 
+        water: "Bromeliad plants are drought resistant succulents that like dry soil. A bromeliad plant has very small roots and over-watering is the number one reason bromeliad plants die. Some bromeliad plant varieties have \"tanks\" that like being filled with water; others varieties have fine hairs on their leaves that enjoy being misted.", 
+        temperature: "Bromeliad plants are tropical plants that can survive in temperatures between 40F°-100°F (4.4C°-37.8°C) but prefer 70F°-75°F (21.1C- 23.9°C) during the day and ten degrees cooler at night. The blooms on a Bromeliad plant last longer when the temperature is cool.", 
+        poisonous: "Bromeliads are non- poisonous houseplants.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/guzmania-bromeliad-126x152.jpg"
     },
     {
-        name: "", 
-        description: "", 
-        light: "", 
-        water: "", 
-        temperature: "", 
-        poisonous: "", 
-        image: ""
+        name: "Cactus Plant", 
+        description: "There are about 2000 varieties of cacti, and they come in a wide variety of shapes and sizes. About 50% of indoor cactus plants will  bloom is properly cared for. Many produce large, beautiful flowers that can be yellow, white, orange, pink, red, and even blue. Some get flowers that bloom only at night and last just one day while others have flowers that last for weeks. Indoors, a potted cactus plant needs to be three or four years old before it blooms, and flowers only develop on new growth. Keeping a cactus plant slightly rootbound helps it to flower.", 
+        light: "A cactus plant likes as much bright, indirect light as you can provide. Introduce a cactus plant to direct, morning sunlight gradually to prevent sunburn. The ideal location for a small cactus plant is near a south-facing window.", 
+        water: "A cactus plant requires more water in the spring, summer, and early fall when it is growing than in the winter. Allow the soil of a cactus plant to almost dry out before watering during the winter months. Over-watering is the main reason a cactus plant dies.", 
+        temperature: "An indoor cactus plant likes temperatures between 60°-80°F (15.6°-26.7°C)", 
+        poisonous: "Although a cactus plant is not a poisonous plant, getting a puncture wound from one of the sharp spines is very unpleasant and could be dangerous if not properly being taken care of.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/Cereus-peruvianus-monstrosus-10-1-137x235.jpg"
     },
     {
-        name: "", 
-        description: "", 
-        light: "", 
-        water: "", 
-        temperature: "", 
-        poisonous: "", 
-        image: ""
+        name: "Caladium Plant", 
+        description: "Caladiums are bulb plants grown for their large, paper-thin, arrow-shaped, colorful leaves that are often more spectacular than many flowers. The most popular indoor varieties are the “fancy-leafed” and “lance-leafed” types. The leaves, some as long as 24 inches, have marbled, spotted, or veined patterns in red, pink, white, and green.", 
+        light: "A caladium plant requires very bright indirect light. Keep a caladium plant out of the direct sun to prevent leaf burn.", 
+        water: "The soil of a caladium plant should be moist but never soggy during the growing season. As the leaves start to die in the early fall and the caladium plant goes into its resting/dormant period, gradually reduce the water to about once every 4-6 weeks.", 
+        temperature: "A caladium plant likes warm temperatures between 70°-85°F (21.1°-29.4°C) with as little fluctuation in temperature as possible. During the five or so months when a caladium plant is dormant, the temperature should be cooler but never below 55°F (12.8°C).", 
+        poisonous: "A Caladium plant is a very poisonous plant with a #3 toxicity level.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/Caladium_bicolor_Florida_Sweetheart_Plant_2220px-171x152.jpg"
     },
     {
-        name: "", 
-        description: "", 
-        light: "", 
-        water: "", 
-        temperature: "", 
-        poisonous: "", 
-        image: ""
+        name: "Calathea Plant", 
+        description: "The many different calathea varieties have leaves with a purple underside and vibrant, colorful patterns on the top side. Indoors, it is a low growing table plant or short bush that rarely gets taller than 10.” It can, however, spread out 24”-26” wide. The leaves of a calathea plant are much more spectacular than the purple, yellow, or white flowers that may develop during the summer.", 
+        light: "How much light does a calathea plant need: A calathea plant likes bright indirect light; so placing it in front of an east, west, or north window is ideal. Too much direct sun burns the leaves and causes the beautiful leaf colors to fade.", 
+        water: "How to water a calathea plant: Calathea plants are very sensitive to the water you use. Hard water, soft water, fluoridated water, or water of poor quality causes ugly, brown leaf burn. The best way to water is to use distilled water, rain water, or allow your tap water to sit out over night before using it. Keep the soil of a Calathea plant barely moist but never soggy. Allow the top 2-3” to dry out before watering and never allow the plant to sit in the excess water.", 
+        temperature: "Calatheaplants like temperatures between 65°-80°F (18.3°-26.7°C), and do not like cold drafts or temperatures below 55°-60°F (12.8°-15.6°C). Hot temperatures cause the leaves of a Calathea plant to curl.", 
+        poisonous: "A Calathea plant is a non- poisonous plant and safe to have around young children and your pets..", 
+        image: "https://www.houseplant411.com/wp-content/uploads/Calathea-pictura-Argentea-08-1-176x152.jpg"
     },
     {
-        name: "", 
-        description: "", 
-        light: "", 
-        water: "", 
-        temperature: "", 
-        poisonous: "", 
-        image: ""
+        name: "Calathea Ornata", 
+        description: "Indoors, this plant rarely grows larger than about 2ft. wide and 2ft. tall. The leaves of the calathea ornata are smaller than those of other calathea plants and have bright pink stripes. The pink coloring of the “roseolineata” variety is even more vibrant.", 
+        light: "A calathea plant requires bright indirect light but no direct sun. Direct sun burns the leaves and causes the vibrant colors to fade.", 
+        water: "The leaves of calathea plants are easily damaged by the quality of the water you use. Hard water or soft water, water with a high chemical content (fluorine, chlorine, or salt), water that has passed through a softener, or water of poor quality causes leaf tip burn. Use distilled water, rain water, or allow your tap water to sit out over night before using it. Calathea plants like moist but not soggy, soil at all times; never let the plant sit in water. Allow the top 2-3” of the soil to dry out before watering.", 
+        temperature: "Calathea plants prefer temperatures between 65°-80°F (18.3°-27.7°C) , and don't do well in cold drafts or temperatures below 55°-60°F (12.8°-15.6°C). The leaves of a calathea plant curl when the temperature is too warm.", 
+        poisonous: "Calathea are non- poisonous plants.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/Calathea-ornata-Rosea-lineata-06-3-246x235.jpg"
     },
     {
-        name: "", 
-        description: "", 
-        light: "", 
-        water: "", 
-        temperature: "", 
-        poisonous: "", 
-        image: ""
+        name: "Calla Lily Plant", 
+        description: "A Calla Lily plant is grown from small rhizomes. A rhizome is a long, thick, modified stem that grows horizontally underground. It produces shoots that grow upwards and out of the soil and roots that grow downwards. Rhizomes, like Plant Bulbs, not only support the plant but store food and other nutrients. The large, tubular or funnel shaped Calla Lily flowers (spathes), grow atop tall, thick stems and have a finger-like yellow spadix in the center. The flower can be as large as 10″ (25.4cm) long. ", 
+        light: "Calla Lilies require at least six hours a day of very bright indirect light. Avoid direct sun, especially during the middle of the day, since it will burn the leaves and flowers.", 
+        water: "These plants like moist soil at all times. Calla Lilies are not drought resistant and should never be allowed to totally dry out. Keep the soil moist but not soggy. Never allow a Calla Lily to sit in water for more than 15 minutes.", 
+        temperature: "Room temperatures should be between 50°-75°F (10°-24°C) for optimal growth. Keep Calla Lilies away from heating and air conditioning vents. If planted outdoors, be sure to dig up the Calla Lily bulbs and bring them inside before temperatures dip below freezing.", 
+        poisonous: "A Calla Lily is a very poisonous houseplant with a #3 toxicity level. Please keep it away from small children and pets. This plant contains high levels of calcium oxalate and ingestion may cause severe burning and swelling of the mouth, throat, lips, and tongue. Stomach distress and diarrhea can also occur.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/640px-Pink_Calla_Lily_Zantedeschia_rehmannii_2000px.jpg"
     }
 ]
 

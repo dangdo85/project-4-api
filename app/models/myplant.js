@@ -3,6 +3,8 @@
 
 const mongoose = require("mongoose")
 
+const noteSchema = require("./note")
+
 const {Schema, model } = mongoose
 
 const myplantSchema = new Schema(
@@ -28,6 +30,7 @@ const myplantSchema = new Schema(
         image: {
             type: String,
         },
+        notes: [noteSchema],
         owner: {
             type: Schema.Types.ObjectId,
             ref: "User"

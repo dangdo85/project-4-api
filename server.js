@@ -6,6 +6,7 @@ const cors = require('cors')
 // require route files
 const plantRoutes = require('./app/routes/plant_routes')
 const myplantRoutes = require('./app/routes/myplant_routes')
+const noteRoutes = require('./app/routes/note_routes')
 const userRoutes = require('./app/routes/user_routes')
 const exampleRoutes = require('./app/routes/example_routes')
 
@@ -69,6 +70,7 @@ app.use(requestLogger)
 // register route files
 app.use(plantRoutes)
 app.use(myplantRoutes)
+app.use(noteRoutes)
 app.use(userRoutes)
 app.use(exampleRoutes)
 

@@ -29,8 +29,12 @@ const router = express.Router()
 
 // INDEX
 // GET /myplants
-router.get('/myplants', requireToken, (req, res, next) => {
+router.get('/myplants', (req, res, next) => {
 	Myplant.find()
+		.populate("owner")
+	// we want everyone to see our plants whether they are logged in or not, we remove the `requireToken`
+	// if we wanted to protect these resources, we can add the requireToken middleware in
+	// requireToken goes between the route and the callback function
 		.then((myplants) => {
 			// `myplants` will be an array of Mongoose documents
 			// we want to convert each one to a POJO, so we use `.map` to
@@ -45,9 +49,13 @@ router.get('/myplants', requireToken, (req, res, next) => {
 
 // SHOW
 // GET /myplants/5a7db6c74d55bc51bdf39793
-router.get('/myplants/:id', requireToken, (req, res, next) => {
+router.get('/myplants/:id', (req, res, next) => {
+	// we want everyone to see our plants whether they are logged in or not, we remove the `requireToken`
+	// if we wanted to protect these resources, we can add the requireToken middleware in
+	// requireToken goes between the route and the callback function
 	// req.params.id will be set based on the `:id` in the route
 	Myplant.findById(req.params.id)
+		.populate("owner")
 		.then(handle404)
 		// if `findById` is succesful, respond with 200 and "myplant" JSON
 		.then((myplant) => res.status(200).json({ myplant: myplant.toObject() }))

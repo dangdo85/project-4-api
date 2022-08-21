@@ -280,6 +280,96 @@ const startPlants = [
         image: "https://www.houseplant411.com/wp-content/uploads/640px-Pink_Calla_Lily_Zantedeschia_rehmannii_2000px.jpg"
     },
     {
+        name: "Cast Iron Plant", 
+        description: "This is a rather plain plant with long, lancet shaped, pointed, course textured, leathery leaves that emerge directly from the soil. The leaves are over a foot long and 5” wide. Every individual leaf on the plant is grown on it own stem. You can separate a stem and its roots from the plant and propagate a new plant. When a cast iron plant is grown outdoors, it sometimes produces inconsequential purple and white flowers around the base of the plant. When grown as an indoor houseplant, it very rarely blooms.", 
+        light: "How much light for a cast iron plant: A cast iron plant grows in any low-light to bright, filtered light area. When the light is too bright, the color in the leaves starts to fade and older leaves may turn brown.", 
+        water: "How to water a cast iron plant: Allow the top 50% of the soil to dry out before watering. The lower the light the less often a cast Iion plant needs to be watered. In very low light, this plant may need water only every 2-3 weeks. over watering is the main reason a cast iron plant dies.", 
+        temperature: "What is the best temperature for a cast iron plant: A cast iron plant does well in temperatures between 50°F-75°F (10°C-23.9°C). This plant can even survive in temperatures as low as 45°F(7.2°C).", 
+        poisonous: "Is a cast iron plant poisonous: This is a non- poisonous plant and is not toxic to cats, dogs, or children.", 
+        image:"https://www.houseplant411.com/wp-content/uploads/Aspidistra-elatior-10-2-300x247.jpg"
+    },
+    {
+        name: "https://www.houseplant411.com/houseplant/cat-palm-how-to-grow-care-guide", 
+        description: "Although in its native environment a Cat Palm can grow as tall as 6ft (1.8m) and have a width up to 8ft (2.4m), indoors a Cat Palm is a slow growing, smaller plant eventually reaching a height of about 4-6ft (1.22m-1.8m). This compact, bushy, airy plant doesn't have a trunk like some other indoor palms. The bright green, pinnate (feather like) fronds grow in a clump-like fashion off thin shoots. The fronds are made up of leaflets that can be 1ft (30cm) long and 1” (2.5cm) wide.", 
+        light: "How much light for a Cat Palm: Provide bright, indirect light but no direct sun. Direct sun, especially in the afternoon, burns the fronds.", 
+        water: "How to water a Cat Palm: Water often enough to keep the barely soil moist, but not soggy, at all times. Never allow the soil to totally dry out. The fronds of a Cat Palm turn yellow when the soil is too dry. Salty water or water containing chemicals such as fluoride, chlorine cause leaf tip burn. Entire fronds turn brown when a Cat Palm is over watered.", 
+        temperature: "Best temperature for a Cat Palm: These plants do well in 70°- 80°F (21.1°-26.7°C) during the day and no lower than 45°F(7.2°C) at night. Palms like to be in a warm environment, but too much dry heat causes leaf damage. Keep Cat Palms away from air conditioners, heating vents, fire places, and cold winter drafts,", 
+        poisonous: "Cat Palms are non- poisonous and safe to have around cats, dogs, and small children.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/il_1588xN.2927488134_2zsg-225x300.jpg"
+    },
+    {
+        name: "China Doll Plant", 
+        description: "A China Doll, Radermachera sinica, plant is a very fast growing plant with lacy-looking, glossy, green foliage that is native to the subtropical mountain regions of southern China and Taiwan. China Doll plants appear very compact and sturdy when you first buy them because of the growth regulators given to them by growers. These growth regulators make normal sized leaves grow on short stems. As this regulator in the soil is used up, a China Doll plant starts growing in all directions just like the outdoor plant it really is. Instead of a dense plant with lots of leaves, it soon becomes open and feathery. To keep the plant thick, full, and bushy, prune frequently.", 
+        light: "A China Doll Plant requires very bright light.", 
+        water: "China Doll plants want to be kept on the dry side. Allow the top 50% of the soil to dry out before watering. The foliage may even turn a pale green when a China Doll plant needs water. Water around the entire soil surface so water reaches all of the roots.", 
+        temperature: "A China Doll Plant does well in temperatures between 65°-75°F (18°-24°C). Keep China Doll Plants away from drafts and cold windowsills or the leaves fall off.", 
+        poisonous: "A China Doll plant is a non- poisonous houseplant.", 
+        image:"https://www.houseplant411.com/houseplant/china-doll-plant-how-to-grow-care-guide"
+    },
+    {
+        name: "Chinese Evergreen Plant", 
+        description: "There are many types of Chinese evergreen plants, all with shiny, oval, leathery leaves that have short stems. The leaves are usually 3″-5″ wide and up to12″ long. The original varieties had green and gray patterned leaves. The new hybrids have yellow, red, and pink in their leaves and require more light. A Chinese evergreen plant produces small, inconsequential flowers in the spring and summer that turn into red berries as the flowers fade.", 
+        light: "Chinese Evergreen plants are probably the only indoor plant with large, colorful, variegated leaves that can live in low-light conditions. If placed in medium light, these plants grow more quickly.", 
+        water: "Allow the top 25-30% of the soil to dry out before watering. When the soil of a Chinese Evergreen plant is too wet, the stems become mushy and die. When the soil gets too dry or too wet, yellow leaves develop. The lower the light, the less water the plant needs.", 
+        temperature: "Warm temperatures between 70°F (21.1°C) and Temperatures below 50°F (10° C) can damage the leaves. Keep a Chinese Evergreen plant away from cold winter drafts and air conditioners.", 
+        poisonous: "Chinese Evergreen contain calcium oxalate crystals and are poisonous plants with a #2 toxicity level. Adverse reactions include: skin irritations after contact with the sap, irritation of mouth, lips, throat, and tongue if leaves are eaten. Please keep this plant away from small children, cats, dogs, and other pets.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/Aglaonema-Emerald-Beauty-08-2-300x248.jpg"
+    },
+    {
+        name: "Chinese Evergreen Plant - Amelia", 
+        description: "A Chinese Evergreen plant is one of the easiest and best-looking houseplants to have in your home or office. Aglaonemas, the scientific name for a Chinese Evergreen, are a hardy hybrid from the aroid family and originally came from the subtropics of southeast Asia. Chinese Evergreen plants can be used as upright table plants or, as they get larger, bushy floor plants. All of the many Chinese Evergreen plant varieties have long shiny leathery leaves with unique patterns of green, gray, and cream.", 
+        light: "Chinese Evergreen plants are one of the few houseplants with light green and gray in the leaves that can grow in low light. The newer varieties that have bright red, pink, yellow, and orange in the leaves require medium to bright light. Never place a Chinese Evergreen in the direct sun.", 
+        water: "Allow the top 25-30% of the soil to dry out before watering. When the soil stays too wet for a long period of time, the stalks rot and die. If the soil gets too dry or too wet, yellow leaves develop.", 
+        temperature: "Temperatures below 50°F (10°C) can damage the leaves of Chinese Evergreen houseplants. Keep these plants out of cold winter drafts and away from air conditioners.", 
+        poisonous: "Chinese Evergreen plants are poisonous with a #2 toxicity level due to the calcium oxalate crystals in the plant. Adverse reactions after contact with the sap include: skin irritations, irritation of mouth, lips, throat, and tongue if the leaves are eaten.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/Aglaonema-Amelia-14-300x265.jpg"
+    },
+    {
+        name: "Christmas Cactus Plant", 
+        description: "A Christmas Cactus plant, Schlumbergera bridgesii is one of the most popular flowering houseplants sold during the Thanksgiving and Christmas holiday seasons. This cactus plant is totally different from the cactus we see growing in a hot, dry desert environment. A Christmas Cactus plant is a type of epiphyte in its native environment. Epiphytes are plants that grow on other plants, trees, and even rocks, in shady areas with high humidity.", 
+        light: "How much light does a Christmas Cactus need: Place a Christmas cactus in bright indirect light but no direct sun. This plant can live in medium or low light, but flower buds may drop off or never form at all.", 
+        water: "How to water a Christmas Cactus: Allow the top 50% of the soil to dry out before watering. Buds fall off when the plant is over watered or severely under watered. Root rot is another problem caused by giving the plant too much water. Reduce the amount of water once a Christmas Cactus has finished flowering, and start watering again normally once it starts to produce new leaves.", 
+        temperature: "Best temperature for a Christmas Cactus: The right temperature is important if you want a Christmas cactus to produce flowers. To set the flower buds, the plant needs cool temperatures between 60°-65°F (16°-18°C) during the day and even cooler temperatures between 45°-55°F (7°-13°C) at night. Once buds have developed, provide warm temperatures between 70°F-75°F (21°C-24°C) during the day and 10° cooler temperatures at night. Cool temperatures help the flowers on a Christmas cactus to last longer.", 
+        poisonous: "Christmas cactus are not toxic to pets (dogs and cats) or children", 
+        image: "https://www.houseplant411.com/wp-content/uploads/christmas-cactus-lrg-225x300.jpg"
+    },
+    {
+        name: "Chrysanthemum Plant", 
+        description: "A Chrysanthemum plant is really an outdoor plant that has become a popular floral gift and flowering plant for home and office. It is second only to the rose as the most popular cut flower in the world. Mums are members of the Asteraceae Family which includes over 20,000 flowering species. Chrysanthemums were brought to Japan by Buddhist Monks in 400 AD and have remained a very important part of Japanese culture to this day. Mums last 3-4 weeks indoors with very little care and in almost any environment before needing to be replaced. The blooms which come in various shapes and colors can be daisy-like, pom-poms, or buttons, and may be yellow, burgundy, pink, or white.", 
+        light: "Place in medium light and away from heating vents, air conditioners, and direct sun to keep blooms lasting longer.", 
+        water: "Allow the top few inches of soil to dry out slightly before you water. Green leaves become soft and droopy when the soil is dry.", 
+        temperature: "Cool temperatures help the blooms on a Chrysanthemum last longer and high temperatures cause the blooms to quickly fade. 70°F (21°C) during the day and not below 60° F (15.5°C) at night are the best temperatures for a Mum plant.", 
+        poisonous: "Chrysanthemums are slightly poisonous with a #1 toxicity level. They are toxic to dogs, cats, and horses. Mums contain Sesquiterpene, lactones, pyrethrins and other potential irritants that can cause vomiting, diarrhea, hypersalivation, incoordination, and skin problems.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/yellow-daisy-chrysanthemum-plant-5d667ff70e259.425.jpg-300x300.png"
+    },
+    {
+        name: "Cineraria Plant", 
+        description: "Cineraria plants are beautiful small flowering plants that are available for purchase during the late winter and early spring. The compact Cineraria plant has tight bunches of petite daisy like flowers surrounded by large dark green leaves. Cineraria flowers can be red, white, blue, or purple. Each Cineraria flower has an “eye” in the middle surrounded by a small white ring. Cineraria plants reach a maximum height of 15-20 inches. Cineraria plants are very fragile perennial plants so they are mostly used as outdoor annuals or indoor gift plants that bloom for only about a month. Once the flowers of a Cineraria plant die, it's time to throw it out or plant it outside", 
+        light: "Cineraria Plants need very bright indirect light but cool temperatures. Place a Cineraria Plant near a north or east-facing window. Light from south & west-facing windows is too hot and causes the flowers on a Cineraria Plant to fade quickly.", 
+        water: "Keep a Cineraria Plant moist but never soggy. Always allow the top inch or two of soil in a Cineraria Plantto dry out before watering. Cineraria Plants can sit in the excess water for 15 minutes then be sure to empty the saucer. The more blooms a Cineraria Plant has, the more water it needs.", 
+        temperature: "Feed a Cineraria Plant in April with a water-soluble plant food high in phosphorous at 1/2 the recommended strength.", 
+        poisonous: "A Cineraria is a poisonous house plant with a #2 toxicity level and should be kept away from small children and pets.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/oldimages/Plant_46/634643886094413645.jpg"
+    },
+    {
+        name: "Clivia Plant", 
+        description: "Clivia plants, close relatives of Amaryllis plants, are easy- care almost indestructible flowering plants from South Africa. Named after a Duchess belonging to the Clive family, Clivias have long, thick, dark-green arching leaves growing out of a large plant bulb. The trumpet or lily- shaped flowers are 2″-3″ in size and can be orange, orange/red, yellow, or cream colored. Clivia flowers appear as a dense cluster of 15-20 small blooms at the end of a long stem. Clivia plants bloom for about 4 weeks during the late spring and early summer when the weather is warm and the days are long.", 
+        light: "A Clivia plant requires bright, indirect light but no direct sun. Direct sun scorches the leaves and ruins the beautiful flowers. During the summer, a Clivia loves to go outside as long as you keep it in the shade.", 
+        water: "During the spring and summer, water well and then allow the top 50% of the soil to dry out before watering again. Reduce your water in the fall; and allow the soil dry out before you water during the winter. Pale green or orange lesions on the leaves indicate you are over-watering.", 
+        temperature: "A Clivia Plant prefers temperatures between 65°-70° F (18.3°-21.1° C) during the spring summer, and early fall. From November to February, when your Clivia plant is 'resting' the temperature should be 50°-55° F (10°-12.8°C). A Clivia plant does not do well in temperatures below 50° F (10°C).", 
+        poisonous: "A Clivia plant is a very poisonous houseplant with a #3 toxicity level.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/634643392675473116-copy-300x225.jpg"
+    },
+    {
+        name: "Coffee Plant", 
+        description: "A coffee plant has shiny, dark green, leaves with ruffled edges. Although coffee plants can grow as tall as 15ft. in nature, when grown indoors, with proper pruning, it is a very attractive, compact houseplant that rarely grows more than 4ft tall. An indoor coffee plant it produces small white flowers in the spring. After the flowers fade, the plant gets bright red berries that are about 1/2″ in size. These berries turn into blackish/green pods. The pods or “fruits” each contain two seeds which eventually become the beans we use to brew our coffee.", 
+        light: "How much light for a coffee plant: A coffee plant needs bright, indirect light from an east or west facing window. Avoid putting the plant in the direct sun.", 
+        water: "How to water a coffee plant: Water a coffee plant when the top 1“- 2“of soil has dried out. These plants are not drought resistant and can suffer permanent damage if the soil totally dries out. Leaves fall off if the plant is over or under watered.", 
+        temperature: "Besttemperature for a coffee plant: These plants prefer constant temperatures between 60°-75° F (18.3°-23.9°C), and can suffer damage if the temperature goes below 42°F (5.6°C) or above 78°F (25.6°C).", 
+        poisonous: "All parts of a coffee plant are toxic to dogs, cats, and small children. Ingesting any part of the plant can cause hyper-activity, diarrhea, and vomiting.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/1280px-Coffee_Flowers-300x225.jpg"
+    },
+    {
         name: "Coleus Plant", 
         description: "The bold colors and patterns on the leaves can be a mixture of lavender, cream, pink, maroon, yellow, red, bronze, and various shades of green. The color patterns can be marbled, stripped, or dappled. The leaves range in size from 1 to 6 inches (2.5-15 cm) and are usually oval with serrated edges; though some like the Kiwi Fern Coleus have long, narrow frilly leaves.", 
         light: "A Coleus plant needs very bright, indirect light to grow well. These plants can even gradually acclimate to a few hours of direct sun. Fluorescent grow lights help make the leaf colors of a coleus plant even more spectacular.", 

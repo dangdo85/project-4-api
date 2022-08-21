@@ -278,7 +278,97 @@ const startPlants = [
         temperature: "Room temperatures should be between 50°-75°F (10°-24°C) for optimal growth. Keep Calla Lilies away from heating and air conditioning vents. If planted outdoors, be sure to dig up the Calla Lily bulbs and bring them inside before temperatures dip below freezing.", 
         poisonous: "A Calla Lily is a very poisonous houseplant with a #3 toxicity level. Please keep it away from small children and pets. This plant contains high levels of calcium oxalate and ingestion may cause severe burning and swelling of the mouth, throat, lips, and tongue. Stomach distress and diarrhea can also occur.", 
         image: "https://www.houseplant411.com/wp-content/uploads/640px-Pink_Calla_Lily_Zantedeschia_rehmannii_2000px.jpg"
-    }
+    },
+    {
+        name: "Coleus Plant", 
+        description: "The bold colors and patterns on the leaves can be a mixture of lavender, cream, pink, maroon, yellow, red, bronze, and various shades of green. The color patterns can be marbled, stripped, or dappled. The leaves range in size from 1 to 6 inches (2.5-15 cm) and are usually oval with serrated edges; though some like the Kiwi Fern Coleus have long, narrow frilly leaves.", 
+        light: "A Coleus plant needs very bright, indirect light to grow well. These plants can even gradually acclimate to a few hours of direct sun. Fluorescent grow lights help make the leaf colors of a coleus plant even more spectacular.", 
+        water: "A coleus plant is a fast- growing plant and the soil dries out more quickly than with many other indoor plants. Always allow the top few inches of soil to dry out before watering. Frequent wilting due to under-watering causes the leaves to develop crispy edges, dull colors, and brown spots. Over-watering is more serious and results in root rot.", 
+        temperature: "A coleus plant likes warm temperatures between 70°-85°F (21.1°-29.4°C) though it can survive in temperatures as low as 55°F (12°C).", 
+        poisonous: "Although a coleus plant is listed as a non- poisonous plant, it is not considered totally safe. I would err on the side of caution andkeep a coleus away from pets and small children.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/7389de6b288e1a7ff5633b1b19e44d1e-152x152.jpg"
+    },
+    {
+        name: "Croton Plant", 
+        description: "A croton plant (Codiaeum variegatum pictum) was originally an outdoor, decorative bush growing in tropical regions where temperatures never went below 50°F (1o°C).  Croton plants come in 100 different varieties and have become a very popular houseplant within the last 15-20 years. ", 
+        light: "How much light for a croton plant: Very bright, indirect light is necessary for the leaves to stay colorful. When there is not enough light, new leaves are green and not predominantly yellow, red, or orange. Too much direct sun causes phototoridation, a condition that causes gray and dull looking leaves.", 
+        water: "Allow the top 25%-30% of the soil to dry out before watering. The hard, leathery leaves become soft and flexible when a croton needs water. When the plant is over watered or severely under watered, leaves drop off.", 
+        temperature: "Warm temperatures between 60°-80°F (15.6°-26.7°C) are best for a croton. If the temperature drops below 50°F (10°C) leaves may drop off.", 
+        poisonous: "Crotons are very poisonous plants with a #3 toxicity level. They are toxic to small children, cats, dogs, and other pets so please keep them well out of reach.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/Codiaeum-petra-08-1-256x179.jpg"
+    },
+    {
+        name: "Crown of Thorns Plant", 
+        description: "As a houseplant, a Crown of Thorns plant can reach a height of 3ft (.9m) and a width of 2ft.(.6m). Like the outdoor variety, these plants have clusters of bright green, tear shaped leaves. The fleshy, dark brown stems are covered in sharp 1/2” thorns and a sticky substance that gets on your hands when you touch the plant.", 
+        light: "A Crown of Thorns plant needs as much bright, indirect light as you can provide,. Avoid placing the plant in direct sun which can damage the leaves.", 
+        water: "During the late spring and into early fall, water a Crown of Thorns plant when the top 50% of the soil has dried out. Reduce the amount of water during the winter when a Crown of Thorns plant is not producing new leaves and flowers. Never allow the soil to totally dry out, or a Crown of Thorns plant may develop severe root damage.", 
+        temperature: "A Crown of Thorns plant likes to be warm and does well in temperatures between 55° F (12.8C) - 95°F (35°C). A Crown of Thorns plant may lose leaves if the temperature goes below 55°F (12.8°C).", 
+        poisonous: "A Crown of Thorns is a poisonous houseplant with a level #2 toxicity. Broken or damaged leaves and stems ooze a milky latex substance that may cause blistering and pain if it gets on any open cuts. A Crown of Thorns plant is very toxic to small children, cats, dogs , and other pets. If consumed, it causes severe mouth irritation, gastro- intestinal problems, and even hemorrhages can occur.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/Crown-Of-Thorns-Plant-180x100.jpg"
+    },
+    {
+        name: "Ctenanthe Plant", 
+        description: "The Ctenanthe plant, native to tropical Brazil.  These evergreen perennials are grown primarily for the beauty of their large, oval, colorfully, patterned  leaves.", 
+        light: "Ctenanthes like bright indirect light. If there is insufficient light, new leaves appear solid green rather than patterned with attractive colors. If there is too much light, the colors in the leaves fade..", 
+        water: "Keep the soil evenly moist but never soggy. Ctenanthes do not like to dry out, and do not like cold or hard water.", 
+        temperature: "Ctenanthes like warm consistent temperatures and will not tolerate temperatures below 60°F (15°C).", 
+        poisonous: "A Ctenanthe plant is slightly poisonous, although it is often listed as non-toxic. It may cause individual allergic reactions. The ASPCA states that it is not poisonous to dogs and cats.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/Ctenanthe-lubbersiana-06-1-246x235.jpg"
+    },
+    {
+        name: "Cyclamen Plant", 
+        description: "A cyclamen is a small, beautiful plant that flowers during the winter. This popular plant that grows well both indoors and outdoors, is native to North Africa, Europe, and the Mediterranean Basin.  To ensure that your new cyclamen blooms for several months, purchase the plant in September, October, or November, and select a plant that is full of buds. At home, place it in a cool, bright area away from the direct sun, and you’ll be able to enjoy the large, colorful flowers all winter.", 
+        light: "During the fall and winter, indoor cyclamen plants need bright, indirect light. When your cyclamen become dormant sometime in the spring, put it in a darker, cooler area until it starts to produce new leaves in the fall.", 
+        water: "People who have problems with cyclamen plants usually make the mistake of watering them from the top rather than the bottom. Also, never water the very center of the plant. Allow the top 50% of the soil to dry out before watering. When your Cyclamen starts to droop a little, place it in a deep saucer of water for about 10 minutes, filling the saucer as needed. Allow the excess water in the soil to drain before returning the plant to its decorative container. Cyclamen leaves do not like to be wet, so try to keep them dry at all times.", 
+        temperature: "Indoors cylamen grow faster and bloom more often in cool temperatures between 55°-65°F (12.8°-18.3°C). When cyclamen plants are dormant, during the spring and summer, place them in an area where the temperature is never below 45°F (7.2°C) or above 60° F (15.5°C). Avoid placing them in drafts or in front of heaters.", 
+        poisonous: "Cyclamen are very poisonous plants with a #3 toxicity level. These plants contain saponins and all parts of the plant, especially the tubers and roots, can cause severe reactions if ingested. Cyclamen are especially harmful to dogs and cats.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/cyclamen-copy-153x204.jpg"
+    },
+    {
+        name: "Desert Rose Plant", 
+        description: "A Desert Rose plant, Adenium Obesum, is a lovely, unique – looking, slow growing succulent plant native to the semi-arid regions of Arabia, the eastern and western parts of Africa, and Madagascar. It’s quite the conversation piece, especially when in bloom, and is very easy to care for. A Desert Rose plant is in the Adenium genus and a member of the Dogbane family, other plants in this family include Vinca (periwinkle), Oleander, and Plumeria.", 
+        light: "A Desert Rose plant requires very bright, indirect light, especially if you want it to flower.", 
+        water: "The fat, bulbous base (caudex) of a Desert Rose stores water, so always allow the soil to practically dry out before watering. If the soil gets excessively dry, the plant becomes dormant; but once you water, leaves quickly start to grow again. The thick base, stems, and roots of a Desert Rose plant become soft and wrinkled when the soil is very dry or when the plant has been over watered and the roots have started to die.", 
+        temperature: "A Desert Rose likes very warm temperatures. Keep the room above 60°F (15.6°C) and avoid placing the plant near air conditioners or cold drafts.", 
+        poisonous: "A Desert Rose plant is a very poisonous houseplant with a #2 Toxicity level.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/Anna-Mirizio-153x204.jpg"
+    },
+    {
+        name: "Dieffenbachia Plant", 
+        description: "A dieffenbachia is a tropical plant originally found growing in the West Indies, Mexico, all the way south to Argentina. A dieffenbachia plant, or “Dumb Cane” plant as it is sometimes called, is a member of the Araceae family and a relative of the Anthurium, Caladium, Calla Lily, and Monstera Deliciosa. All plants in the Araceae family contain calcium oxalate crystals and are very poisonous. The sap from these plants is a severe irritant. A dieffenbachia got its nickname “Dumb Cane plant” because the toxic effect of the oxalates can cause a temporary inability to speak.", 
+        light: "How much light for a dieffenbachia plant: A dieffenbachia plant requires medium to bright, indirect light; but no direct sun. Direct sun burns the leaves and even too much bright light causes the vibrant leaf color to fade. When an indoor dieffenbachia does not get enough light, the new leaves are small and far apart on the stem.", 
+        water: "How to water a dieffenbachia plant: Water well and then allow the top 2\"-3\" of the soil to dry out before watering again. A dieffenbachia plant does best when watered on a regular schedule. If the soil gets too dry, the bottom leaves may turn yellow. If a dieffenbachia plant is over- watered, the plant stems get soft and mushy and the plant starts to die.", 
+        temperature: "Best temperature for a dieffenbachia plant: A dieffenbachia plant prefer temperatures above 60°F (15.6°C). The lower leaves on the plant turn yellow when exposed to cold drafts from doors, windows, or air conditioners.", 
+        poisonous: "A dieffenbachia plant is extremely poisonous with a #4 toxicity level and very toxic to cats, dogs, and small children. If the sap from a dieffenbachia gets on your skin, wash it off immediately. Seek medical advice if a child or pet ingests any part of a dieffenbachia plant.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/Dieffenbachia-amoena-Tropic-Snow-10-3-153x181.jpg"
+    },
+    {
+        name: "Donkey’s Tail Plant", 
+        description: "A Donkey’s Tail plant (Sedum Morganianum), sometimes called a Burro’s Tail Sedum, Donkey Tail Cactus , or Lamb’s Tail, is an easy-care succulent plant native to southern Mexico and Honduras. It is part of the Crassulaceae (Stonecrop) family and a relative of the jade plant and the kalanchoe. A Donkey’s Tail plant is very fragile and the small, swollen leaves easily fall off if the plant is disturbed. The good news is that these leaves root quickly and easily to produce new plants.", 
+        light: "A Donkey’s Tail plant needs at least four hours of sun or very bright light every day. In low light, the new growth is small, pale, and weak.", 
+        water: "Succulent Plants need to dry out before you water, and a Donkey’s Tail plant is no exception. Water well and then don't water again until the soil has almost completely dried out. Over-watering a Donkey's Tail plant or any succulent plant is the easiest way to kill it. The leaves of the plant become flat and even a little wrinkled when it needs water. Keep the soil even drier in the winter when the plant is dormant.", 
+        temperature: "A Donkey's Tail plant grows best when the temperature is between 65°-75°F (18.3°-23.9°C). During the winter, when the plant is dormant, lower the temperature by 10°, keep the plant out of drafts, and away from cold doors & windows.", 
+        poisonous: "Donkey's Tail plant is the common name for Sedum Morganianum and is a non- poisonous houseplant.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/Donkeys-Tail-Plant-04-180x152.jpg"
+    },
+    {
+        name: "Dracaena Compacta", 
+        description: "The Dracaena compacta plant, a compact, slow growing member of the Dracaena family, is native to South East Africa. It is often referred to as Dracaena fragrans or Dracaena deremensis.  The Dracaena Compacta has a thick green stems with several clumps of short, dark green leaves 2″-4″ in length on each stem. This plant is beautiful addition to homes or offices, but it’s a bit more difficult and more expensive than other dracaenas.", 
+        light: "A Dracaena compacta plant grows best in medium light. In low light area they grow very slowly or not at all, tend to lose bottom leaves more quickly, and are easily over-watered. Rotate dracaenas weekly so that they don’t grow toward the light, become one sided, and lose their beautiful shape..", 
+        water: "Like other indoor houseplants, a dracaena compacta uses less water in low light than in brighter light. Keep the plant on the dry side to prevent root rot and Leaf Spot Disease. Allow the top ¾ of the soil to dry out before watering. In low light this could be two weeks or more. Compacta plants do better when watered on a regular schedule. Dark brown tips usually indicate the following: too much chlorine or fluoride in the water, water is too salty (never use water that has passed through a softener), or too much plant food. Muddy brown leaf tips on new growth means the plant needs more water.", 
+        temperature: "Dracaena compacta plants like warm room temperatures 60-75°F (16-24°C). Cold winter drafts and heaters can damage the leaves.", 
+        poisonous: "There is a lot of disagreement as to whether Dracaenas are poisonous houseplants. I give them a #1 toxicity level. Dracaenas may cause intestinal issues if eaten by a small child, dog, or cat.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/Dracaena-deremensis-Janet-Craig-Compacta-10-BU-1-133x152.jpg"
+    },
+    {
+        name: "Dracaena Corn Plant", 
+        description: "The Dracaena fragrans ‘Massangeana’, or Dracaena Corn plant as it is usually called, is native to the tropical areas of Africa and a close relative of the Dracaena Warnekii (Striped Dracaena), Dracaena Janet Craig, Dracaena marginata, and Dracaena Compacta. It got its nickname “Corn Plant” dracaena, because the main, tall, unbranched stem of the plant resembles the main stalk of a corn plant.", 
+        light: "A dracaena massangeana, also called a dracaena corn plant, can tolerate low light but grows faster and produces larger leaves in medium to bright indirect light. Unlike the low-light dracaena janet craig with its dark green leaves, the corn plant dracaena requires better light to maintain the pale yellow center stripe in the leaves.", 
+        water: "Like all dracaenas, allow the top 50-75% of the soil to dry out before watering. A corn plant dracaena survives under-watering, but quickly dies from over-watering. If your water contains fluoride or chlorine, allow it to sit out over-night before using it so the chemicals can dissipate. High concentrations of fluoride damage the leaves and cause brown leaf tips. Never use water that has passed through a softener; it is too salty and causes leaf damage.", 
+        temperature: "Corn plant dracaenas do well in temperatures between 65°-80°F (18°-26.5°C).", 
+        poisonous: "Corn plant dracaenas are slightly poisonous with a #1 toxicity leval.", 
+        image: "https://www.houseplant411.com/wp-content/uploads/Dracaena-fragrans-Massangeana-10-432-2-126x235.jpg"
+    },
 ]
 
 // first we need to connect to the database

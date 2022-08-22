@@ -64,9 +64,17 @@ You probably will only need to interact with files in app/models, app/routes, an
 |-------|---------------------|-------------------|
 | GET   |        `/`          |     `index`       |
 | GET   |      `/:id`         |     `show`        |
+
+### MyPlants
+
+| Verb  | URI Pattern         | Controller#Action |
+|-------|---------------------|-------------------|
+| GET   |        `/`          |     `index`       |
+| GET   |      `/:id`         |     `show`        |
 | POST  |       `/`           |     `add`         |
 | PATCH |       `/:id`        |    `update`       |
 | DELETE|       `/:id`        |      `destroy`    |
+
 
 ### Notes
 
@@ -110,6 +118,8 @@ water: String
 temperature: String
 
 poisonous: String
+
+image: String
 
 owner: String
 

@@ -1282,7 +1282,8 @@ mongoose.connect(db, {
 })
     .then(() => {
         // first we remove all of the plants
-
+        // here we can add something to make sure we only delete pets without an owner
+        //BE VERY CAREFUL HERE, DO NOT WANT TO DELETE PLANTS OF OTHER 
         // owner: null prevents the deletion of items with an owner when we seed
         Plant.deleteMany({owner: null })
             .then(deletedPlants => {

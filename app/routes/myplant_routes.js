@@ -65,7 +65,7 @@ router.get('/greenhome/myplants/:id', (req, res, next) => {
 
 // CREATE
 // POST /myplants
-router.post('/greenhome/myplants', requireToken, (req, res, next) => {
+router.post('/greenhome/myplants', (req, res, next) => {
 	// set owner of new myplant to be current user
 	req.body.myplant.owner = req.user.id
 

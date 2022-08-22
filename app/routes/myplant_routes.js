@@ -29,7 +29,7 @@ const router = express.Router()
 
 // INDEX
 // GET /myplants
-router.get('/myplants', (req, res, next) => {
+router.get('/greenhome/myplants', (req, res, next) => {
 	Myplant.find()
 		.populate("owner")
 	// we want everyone to see our plants whether they are logged in or not, we remove the `requireToken`
@@ -49,7 +49,7 @@ router.get('/myplants', (req, res, next) => {
 
 // SHOW
 // GET /myplants/5a7db6c74d55bc51bdf39793
-router.get('/myplants/:id', (req, res, next) => {
+router.get('/greenhome/myplants/:id', (req, res, next) => {
 	// we want everyone to see our plants whether they are logged in or not, we remove the `requireToken`
 	// if we wanted to protect these resources, we can add the requireToken middleware in
 	// requireToken goes between the route and the callback function
@@ -65,7 +65,7 @@ router.get('/myplants/:id', (req, res, next) => {
 
 // CREATE
 // POST /myplants
-router.post('/myplants', requireToken, (req, res, next) => {
+router.post('/greenhome/myplants', requireToken, (req, res, next) => {
 	// set owner of new myplant to be current user
 	req.body.myplant.owner = req.user.id
 
@@ -82,7 +82,7 @@ router.post('/myplants', requireToken, (req, res, next) => {
 
 // UPDATE
 // PATCH /myplants/5a7db6c74d55bc51bdf39793
-router.patch('/myplants/:id', requireToken, removeBlanks, (req, res, next) => {
+router.patch('/greenhome/myplants/:id', requireToken, removeBlanks, (req, res, next) => {
 	// if the client attempts to change the `owner` property by including a new
 	// owner, prevent that by deleting that key/value pair
 	delete req.body.myplant.owner
@@ -105,7 +105,7 @@ router.patch('/myplants/:id', requireToken, removeBlanks, (req, res, next) => {
 
 // DESTROY
 // DELETE /myplants/5a7db6c74d55bc51bdf39793
-router.delete('/myplants/:id', requireToken, (req, res, next) => {
+router.delete('/greenhome/myplants/:id', requireToken, (req, res, next) => {
 	Myplant.findById(req.params.id)
 		.then(handle404)
 		.then((myplant) => {

@@ -29,7 +29,7 @@ const router = express.Router()
 
 // INDEX
 // GET /plants
-router.get('/plants', (req, res, next) => {
+router.get('/greenhome', (req, res, next) => {
 	// we want everyone to see our plants whether they are logged in or not, we remove the `requireToken`
 	// if we wanted to protect these resources, we can add the requireToken middleware in
 	// requireToken goes between the route and the callback function
@@ -48,7 +48,7 @@ router.get('/plants', (req, res, next) => {
 
 // SHOW
 // GET /plants/5a7db6c74d55bc51bdf39793
-router.get('/plants/:id', (req, res, next) => {
+router.get('/greenhome/:id', (req, res, next) => {
 	// we want everyone to see our plants whether they are logged in or not, we remove the `requireToken`
 	// if we wanted to protect these resources, we can add the requireToken middleware in
 	// requireToken goes between the route and the callback function

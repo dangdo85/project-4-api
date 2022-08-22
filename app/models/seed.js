@@ -289,7 +289,7 @@ const startPlants = [
         image:"https://www.houseplant411.com/wp-content/uploads/Aspidistra-elatior-10-2-300x247.jpg"
     },
     {
-        name: "https://www.houseplant411.com/houseplant/cat-palm-how-to-grow-care-guide", 
+        name: "Cat Palm", 
         description: "Although in its native environment a Cat Palm can grow as tall as 6ft (1.8m) and have a width up to 8ft (2.4m), indoors a Cat Palm is a slow growing, smaller plant eventually reaching a height of about 4-6ft (1.22m-1.8m). This compact, bushy, airy plant doesn't have a trunk like some other indoor palms. The bright green, pinnate (feather like) fronds grow in a clump-like fashion off thin shoots. The fronds are made up of leaflets that can be 1ft (30cm) long and 1” (2.5cm) wide.", 
         light: "How much light for a Cat Palm: Provide bright, indirect light but no direct sun. Direct sun, especially in the afternoon, burns the fronds.", 
         water: "How to water a Cat Palm: Water often enough to keep the barely soil moist, but not soggy, at all times. Never allow the soil to totally dry out. The fronds of a Cat Palm turn yellow when the soil is too dry. Salty water or water containing chemicals such as fluoride, chlorine cause leaf tip burn. Entire fronds turn brown when a Cat Palm is over watered.", 
@@ -304,7 +304,7 @@ const startPlants = [
         water: "China Doll plants want to be kept on the dry side. Allow the top 50% of the soil to dry out before watering. The foliage may even turn a pale green when a China Doll plant needs water. Water around the entire soil surface so water reaches all of the roots.", 
         temperature: "A China Doll Plant does well in temperatures between 65°-75°F (18°-24°C). Keep China Doll Plants away from drafts and cold windowsills or the leaves fall off.", 
         poisonous: "A China Doll plant is a non- poisonous houseplant.", 
-        image:"https://www.houseplant411.com/houseplant/china-doll-plant-how-to-grow-care-guide"
+        image:"https://www.houseplant411.com/wp-content/uploads/Radermachera-sinica-061-copy-256x184.jpg"
     },
     {
         name: "Chinese Evergreen Plant", 
@@ -505,7 +505,7 @@ const startPlants = [
         image: "https://www.houseplant411.com/wp-content/uploads/Dracaena-reflexa-Song-of-India-08-2-283x300.jpg"
     },
     {
-        name: "https://www.houseplant411.com/wp-content/uploads/Dracaena-deremensis-Warneckei-14-BU-2-300x209.jpg", 
+        name: "Dracaena warnekii", 
         description: "Dracaena warnekii, like all dracaenas, are hardy, slow-growing plants that thrive on neglect. Sometimes referred to as a “striped dracaena”, the warnekii has long, pointed, narrow green and white striped leaves and can be used as a table plant, bushy floor plant, or tall cane plant for home and office. The “jumbo” variety has wider leaves and is a more compact plant. The “lemon lime” cultivar has yellow and green stripes. A dracaena warnekii is one of the few colorful indoor plants that can survive in low light conditions. NASA recommends the dracaena warnekii as a clean air plant, one of the top ten plants for removing formaldehyde from the air.", 
         light: "A Dracaena warnekii survives in low light, but grows faster and fuller in medium light. In low light, the new leaves may be smaller and narrower. Direct sun burns the leaves.", 
         water: "All dracaena plants like to be kept on the dry side. Water well and then allow the top 50% of the soil to dry out before watering again. Never allow the plant to sit in water. The lower the light level the less water a dracaena warnekii needs. All types of dracaenas are very sensitive to fluorine and chlorine. If your household water is heavily chlorinated or contains a great deal of fluoride, allow it to sit out over night before using it; use water from an outside hose; use rain water or distilled water. Never use water that has passed through a water softener. It is too salty and can damage the leaves.", 

@@ -9,6 +9,7 @@ const plantSchema = new Schema(
     {
         name: {
             type: String,
+            require: true
         },
         description: {
             type: String,

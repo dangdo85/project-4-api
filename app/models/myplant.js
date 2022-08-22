@@ -11,6 +11,7 @@ const myplantSchema = new Schema(
     {
         name: {
             type: String,
+            require: true
         },
         description: {
             type: String,

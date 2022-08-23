@@ -29,7 +29,7 @@ const router = express.Router()
 
 // INDEX
 // GET /myplants
-router.get('/greenhome/myplants', (req, res, next) => {
+router.get('/greenhome/myplants', requireToken, (req, res, next) => {
 	Myplant.find()
 		.populate("owner")
 	// we want everyone to see our plants whether they are logged in or not, we remove the `requireToken`
@@ -49,7 +49,7 @@ router.get('/greenhome/myplants', (req, res, next) => {
 
 // SHOW
 // GET /myplants/5a7db6c74d55bc51bdf39793
-router.get('/greenhome/myplants/:id', (req, res, next) => {
+router.get('/greenhome/myplants/:id', requireToken, (req, res, next) => {
 	// we want everyone to see our plants whether they are logged in or not, we remove the `requireToken`
 	// if we wanted to protect these resources, we can add the requireToken middleware in
 	// requireToken goes between the route and the callback function
@@ -65,14 +65,15 @@ router.get('/greenhome/myplants/:id', (req, res, next) => {
 
 // CREATE
 // POST /myplants
-router.post('/greenhome/myplants', (req, res, next) => {
+router.post('/greenhome/myplants', requireToken, (req, res, next) => {
 	// set owner of new myplant to be current user
-	req.body.myplant.owner = req.user.id
+	req.body.plant.owner = req.user.id
 
-	Myplant.create(req.body.myplant)
+	Myplant.create(req.body.plant)
 		// respond to succesful `create` with status 201 and JSON of new "myplant"
-		.then((myplant) => {
-			res.status(201).json({ myplant: myplant.toObject() })
+		.then((myPlant) => {
+			console.log('my plant in create route', myPlant)
+			res.status(201).json({ myPlant: myPlant.toObject() })
 		})
 		// if an error occurs, pass it off to our error handler
 		// the error handler needs the error message and the `res` object so that it

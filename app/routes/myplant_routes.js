@@ -30,12 +30,13 @@ const router = express.Router()
 // INDEX
 // GET /myplants
 router.get('/greenhome/myplants', requireToken, (req, res, next) => {
-	Myplant.find()
+	Myplant.find({ owner: req.user._id })
 		.populate("owner")
 	// we want everyone to see our plants whether they are logged in or not, we remove the `requireToken`
 	// if we wanted to protect these resources, we can add the requireToken middleware in
 	// requireToken goes between the route and the callback function
 		.then((myplants) => {
+			// requireOwnership(req, myplants)
 			// `myplants` will be an array of Mongoose documents
 			// we want to convert each one to a POJO, so we use `.map` to
 			// apply `.toObject` to each one

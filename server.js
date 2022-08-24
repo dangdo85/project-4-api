@@ -68,8 +68,8 @@ app.use(express.urlencoded({ extended: true }))
 app.use(requestLogger)
 
 // register route files
-app.use(plantRoutes)
 app.use(myplantRoutes)
+app.use(plantRoutes)
 app.use(noteRoutes)
 app.use(userRoutes)
 app.use(exampleRoutes)

@@ -65,14 +65,20 @@ router.get('/greenhome/myplants/:id', (req, res, next) => {
 
 // CREATE
 // POST /myplants
-router.post('/greenhome/myplants', (req, res, next) => {
-	// set owner of new myplant to be current user
-	req.body.myplant.owner = req.user.id
 
-	Myplant.create(req.body.myplant)
+router.post('/greenhome/myplants', requireToken, (req, res, next) => {
+	// set owner of new myplant to be current user
+	// req.body.myplant.owner = req.user.id
+	// console.log("a sting in create route", req)
+	console.log("a sting in create route", req.user)
+	req.body.plant.owner = req.user._id
+
+	// Myplant.create(req.body.myplant)
+	Myplant.create(req.body.plant)
 		// respond to succesful `create` with status 201 and JSON of new "myplant"
-		.then((myplant) => {
-			res.status(201).json({ myplant: myplant.toObject() })
+		.then((myPlant) => {
+			console.log("my plant in create route", myPlant)
+			res.status(201).json({ myPlant: myPlant.toObject() })
 		})
 		// if an error occurs, pass it off to our error handler
 		// the error handler needs the error message and the `res` object so that it

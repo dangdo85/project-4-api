@@ -111,6 +111,7 @@ router.delete('/greenhome/myplants/:id', requireToken, (req, res, next) => {
 	Myplant.findById(req.params.id)
 		.then(handle404)
 		.then((myplant) => {
+			console.log('myplanyId api delete route', myplant)
 			// throw an error if current user doesn't own `myplant`
 			requireOwnership(req, myplant)
 			// delete the myplant ONLY IF the above didn't throw

@@ -3,8 +3,8 @@ const express = require('express')
 // Passport docs: http://www.passportjs.org/docs/
 const passport = require('passport')
 
-// pull in Mongoose model for myplants
-const Myplant = require('../models/myplant')
+// pull in Mongoose model for plants
+const Plant = require('../models/plant')
 
 // this is a collection of methods that help us detect situations when we need
 // to throw a custom error
@@ -30,20 +30,20 @@ const router = express.Router()
 // INDEX
 // GET /myplants
 router.get('/greenhome/myplants', requireToken, (req, res, next) => {
-	Myplant.find({ owner: req.user._id })
+	Plant.find({ owner: req.user._id })
 		.populate("owner")
 	// we want everyone to see our plants whether they are logged in or not, we remove the `requireToken`
 	// if we wanted to protect these resources, we can add the requireToken middleware in
 	// requireToken goes between the route and the callback function
-		.then((myplants) => {
-			// requireOwnership(req, myplants)
-			// `myplants` will be an array of Mongoose documents
+		.then((plants) => {
+			// requireOwnership(req, plants)
+			// `plants` will be an array of Mongoose documents
 			// we want to convert each one to a POJO, so we use `.map` to
 			// apply `.toObject` to each one
-			return myplants.map((myplant) => myplant.toObject())
+			return plants.map((plant) => plant.toObject())
 		})
-		// respond with status 200 and JSON of the myplants
-		.then((myplants) => res.status(200).json({ myplants: myplants }))
+		// respond with status 200 and JSON of the plants
+		.then((plants) => res.status(200).json({ plants: plants }))
 		// if an error occurs, pass it to the handler
 		.catch(next)
 })
@@ -55,11 +55,11 @@ router.get('/greenhome/myplants/:id', requireToken, (req, res, next) => {
 	// if we wanted to protect these resources, we can add the requireToken middleware in
 	// requireToken goes between the route and the callback function
 	// req.params.id will be set based on the `:id` in the route
-	Myplant.findById(req.params.id)
+	Plant.findById(req.params.id)
 		.populate("owner")
 		.then(handle404)
-		// if `findById` is succesful, respond with 200 and "myplant" JSON
-		.then((myplant) => res.status(200).json({ myplant: myplant.toObject() }))
+		// if `findById` is succesful, respond with 200 and "plant" JSON
+		.then((plant) => res.status(200).json({ plant: plant.toObject() }))
 		// if an error occurs, pass it to the handler
 		.catch(next)
 })
@@ -67,14 +67,14 @@ router.get('/greenhome/myplants/:id', requireToken, (req, res, next) => {
 // CREATE
 // POST /myplants
 router.post('/greenhome/myplants', requireToken, (req, res, next) => {
-	// set owner of new myplant to be current user
+	// set owner of new plant to be current user
 	req.body.plant.owner = req.user.id
 
-	Myplant.create(req.body.plant)
-		// respond to succesful `create` with status 201 and JSON of new "myplant"
-		.then((myPlant) => {
-			console.log('my plant in create route', myPlant)
-			res.status(201).json({ myPlant: myPlant.toObject() })
+	Plant.create(req.body.plant)
+		// respond to succesful `create` with status 201 and JSON of new "plant"
+		.then((plant) => {
+			console.log('my plant in create route', plant)
+			res.status(201).json({ plant: plant.toObject() })
 		})
 		// if an error occurs, pass it off to our error handler
 		// the error handler needs the error message and the `res` object so that it
@@ -87,17 +87,17 @@ router.post('/greenhome/myplants', requireToken, (req, res, next) => {
 router.patch('/greenhome/myplants/:id', requireToken, removeBlanks, (req, res, next) => {
 	// if the client attempts to change the `owner` property by including a new
 	// owner, prevent that by deleting that key/value pair
-	delete req.body.myplant.owner
+	delete req.body.plant.owner
 
-	Myplant.findById(req.params.id)
+	Plant.findById(req.params.id)
 		.then(handle404)
-		.then((myplant) => {
+		.then((plant) => {
 			// pass the `req` object and the Mongoose record to `requireOwnership`
 			// it will throw an error if the current user isn't the owner
-			requireOwnership(req, myplant)
+			requireOwnership(req, plant)
 
 			// pass the result of Mongoose's `.update` to the next `.then`
-			return myplant.updateOne(req.body.myplant)
+			return plant.updateOne(req.body.plant)
 		})
 		// if that succeeded, return 204 and no JSON
 		.then(() => res.sendStatus(204))
@@ -108,14 +108,14 @@ router.patch('/greenhome/myplants/:id', requireToken, removeBlanks, (req, res, n
 // DESTROY
 // DELETE /myplants/5a7db6c74d55bc51bdf39793
 router.delete('/greenhome/myplants/:id', requireToken, (req, res, next) => {
-	Myplant.findById(req.params.id)
+	Plant.findById(req.params.id)
 		.then(handle404)
-		.then((myplant) => {
-			console.log('myplanyId api delete route', myplant)
-			// throw an error if current user doesn't own `myplant`
-			requireOwnership(req, myplant)
-			// delete the myplant ONLY IF the above didn't throw
-			myplant.deleteOne()
+		.then((plant) => {
+			console.log('plantId api delete route', plant)
+			// throw an error if current user doesn't own `plant`
+			requireOwnership(req, plant)
+			// delete the plant ONLY IF the above didn't throw
+			plant.deleteOne()
 		})
 		// send back 204 and no content if the deletion succeeded
 		.then(() => res.sendStatus(204))

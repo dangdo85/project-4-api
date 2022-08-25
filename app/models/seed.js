@@ -16,7 +16,8 @@ const startPlants = [
         water: "How often should you water an African Violet plant: How you water is another important factor in helping an African Violet flower. Allow the top 1“- 2“ of soil dry out before watering. Avoid using water that has passed through a softener or water containing chlorine or fluorine. I like to water from the bottom since this helps prevent water getting on the leaves. Set your African Violet in a deep saucer of water for 10 minutes. Refill the water as it is absorbed through the drip holes in the bottom of the pot. Remove any water that is still in the saucer after 10 minutes.", 
         temperature: "Best temperature for an African Violet plant: Temperatures between 75°-80°F (23.9°-26.7C) during the day and about 10° cooler at night are ideal. Keep the plant away from cold drafts and heating vents.", 
         poisonous: "Is an African Violet plant poisonous: This is a non- poisonous plant and an African Violet plant is not toxic to cats, dogs, and is safe to have around small children.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/African-Violet-Plant-256x192.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/African-Violet-Plant-256x192.jpg",
+        isSeeded: true
     },
     {
         name: "Agave Plant", 
@@ -25,7 +26,8 @@ const startPlants = [
         water: "How to water an agave plant: These are very drought resistant plants and the easiest way to kill an agave plant is by over watering, especially in the winter. During the spring and summer, water when the tops few inches of soil has dried out. In the fall, water every 2-3 weeks. During the winter, water about once a month.", 
         temperature: "Best temperature for an agave plant: Warm temperatures above 65° and as high as 80° are perfect for an agave plant. Avoid placing it near cold winter drafts or in front of an air conditioner.", 
         poisonous: "An agave plant is a toxic plant and can be quite dangerous to have around dogs, cats, and small children. The leaves of the plant contain oxalate crystals, and if ingested, can cause swelling and difficulty breathing. Another problem is skin irritations caused when someone is pricked by the sharp leaf tips or the spines along the edges of the leaves. Dermatitis problems also occur if the sap of an agave plant gets into an open cut on your hands or arms.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Agave-attenuata-08-1-256x178.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Agave-attenuata-08-1-256x178.jpg",
+        isSeeded: true
     },
     {
         name: "Alocasia", 
@@ -34,7 +36,8 @@ const startPlants = [
         water: 'How to water an alocasia plant: Allow the top 2"- 3" of soil to dry out before watering an alocasia plant. When watering, water evenly so all parts of the soil are moistened. As with all indoor plants, too much water, constantly wet leaves, and heavy, soggy soil encourage numerous fungal infections that can seriously harm an alocasia plant. Examine the soil frequently until you are sure how often the plant needs to be watered. During the winter, when an alocasia plant is resting, it requires less water.', 
         temperature: "Best temperature for an alocasia plant: An alocasia grows well in warm temperatures between 60°-80°F (15.6°-26.7°C). When it is exposed to temperatures below 60°F (15.6°C) for a long period, the plant becomes dormant and may drop all of its leaves. Keep an alocasia plant away from air conditioners and cold drafts or you may the leaves drooping and falling off.", 
         poisonous: "Is an alocasia a poisonous plant: An alocasia plant is an extremely poisonous plant and very toxic to children, cats, dogs, and other small pets. Eating parts of an alocasia can be be life threatening. I give this plant a #4 toxicity level which means it is very lethal.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Alocasia-X-amazonica-165x152.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Alocasia-X-amazonica-165x152.jpg",
+        isSeeded: true
     },
     {
         name: "Alocasia – Jewel Alocasia", 
@@ -43,7 +46,8 @@ const startPlants = [
         water: 'Always allow the top 2"- 3" of the soil to dry out before watering. Keep the soil evenly moist. Over- watering, wet leaves, and soggy soil makes an alocasia plant susceptible to a variety of serious fungal infections. Check the soil frequently until you are sure of the plant\'s watering needs. Water less during the winter when it is dorman.', 
         temperature: "Alocasia plants prefer warm temperatures between 60°-80°F (15.6°-26.7°C). Alocasia plants becomes dormant with prolonged exposure to temperatures below 60°F (15.6°C), and may drop all of their leaves. Be sure to keep an alocasia away from air conditioners and cold drafts. During warm summer months an alocasia plant can produce a new leaf every week and each new leaf may be twice the size of the previous leaf.", 
         poisonous: "Alocasia plants are very poisonous houseplants with a #4 toxicity level. Alocasia plants are considered poisonous and should be kept away from pets and children.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Alocasia-nebula-Imperialis-06-180x110.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Alocasia-nebula-Imperialis-06-180x110.jpg",
+        isSeeded: true
     },
     {
         name: "Aloe Vera Plant", 
@@ -52,7 +56,8 @@ const startPlants = [
         water: "How to water an aloe vera plant: Water well and then allow the soil to thoroughly dry out before watering again. It may be 2-3 weeks before an aloe vera plants needs to be watered again. During the winter, an aloe vera plant needs even less water. An aloe vera plant can be saved from severe under-watering, but rarely survives being over-watered.", 
         temperature: "These plants likes dry, warm temperatures between 65°-85°F (18°-29° C). Aloe Vera plants do not do well in temperatures below 40°F (4.5°C)", 
         poisonous: "Although the sap of an Aloe Vera plant is highly recommended for treating burns, other parts of the plant are poisonous. This plant has a #1 toxicity level.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/cb76738f43d2d7cfae8f87b3a865ec31-153x231.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/cb76738f43d2d7cfae8f87b3a865ec31-153x231.jpg",
+        isSeeded: true
     },
     {
         name: "Amaryllis", 
@@ -61,7 +66,8 @@ const startPlants = [
         water: "HOW TO WATER AN AMARYLLIS PLANT: Water the bulbs sparingly until the stems appear. As the stem, flower buds, and leaves develop increase the water. Keeping the soil barely moist helps extend the life of the flowers.", 
         temperature: "BEST TEMPERATURE FOR AN AMARYLLIS PLANT: These plants like temperatures between 68°-70°F(20°-21.1°C). Once the plant flowers moe it to a slightly cooler area to help the flowers last longer.", 
         poisonous: "IS AN AMARYLLIS PLANT poisonous: This plant is extremely poisonous to small children, dogs, cats and other pets.. All parts of the plant contain alkaloids that can cause severe problems if the plant is ingested. The amaryllis bulbs contain calcium oxalates and are the most dangerous part of the plant. Pets that swallow pieces of an amaryllis plant suffer severe mouth pain, drooling, foaming at the mouth, vomiting, and breathing problems. Small children who eat any part of the plant develop digestive problems and swelling of the lips, tongue and airways making it difficult to breathe and swallow.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/images-11-117x152.jpeg"
+        image: "https://www.houseplant411.com/wp-content/uploads/images-11-117x152.jpeg",
+        isSeeded: true
     },
     {
         name: "Angel Wing Begonia", 
@@ -70,7 +76,8 @@ const startPlants = [
         water: "Be careful not to over-water! If the plant is in a small pot, allow the top 1” of soil to dry out before watering. In a larger pot, allow the top 2”-3” of soil to dry out. Angel wing begonia containers must have drip holes in the bottom for proper drainage and the plant should never sit in water. When over-watered, the leaves turn yellow and fall off.", 
         temperature: "Angel wing begonias do well when the temperature is 65°-75°F (18.3°-23.9°C). Temperatures below 50°F (10.0°C) damage leaves and flowers.", 
         poisonous: "Angel Wing begonia plants have a #1 toxicity level due to the insoluble oxalates in the plant.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/angel-wing-begonia-114x152.jpeg"
+        image: "https://www.houseplant411.com/wp-content/uploads/angel-wing-begonia-114x152.jpeg",
+        isSeeded: true
     },
     {
         name: "Anthurium", 
@@ -79,7 +86,8 @@ const startPlants = [
         water: "How to water an anthurium: Water well and then allow the top few inches of soil to dry out before watering again. Over-watering causes yellow leaf tips and under- watering causes brown leaf tips.", 
         temperature: "What is the best temperature for an anthurium: 75°F-85°F (23.9°C-29.4°C) during the day and about 10° cooler at night are ideal. Temperatures below 60°F (15.6°C) slow leaf and flower growth.", 
         poisonous: "An anthurium is a very poisonous plant and toxic to cats, dogs, and children. It has a #3 toxicity level which means it should be kept far out of reach.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Anthurium-Red-06-180x143.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Anthurium-Red-06-180x143.jpg",
+        isSeeded: true
     },
     {
         name: "Aralia Plant", 
@@ -88,7 +96,8 @@ const startPlants = [
         water: "Too much water, resulting in root rot, is the main reason an aralia plant dies. Allow the top 50% of the soil to dry out before watering. In low light conditions, an aralia plant may need water as little as every 2-3 weeks.", 
         temperature: 'Temperatures between 60°-85° F (15.6°-29.4°C) are best for an Aralia plant.', 
         poisonous: "An aralia plant is a poisonous plant with a #2 toxicity level. All parts of an aralia plant contain saponins which may cause gastrointestinal irritation, nausea, vomiting and diarrhea.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Polyscias-fruticosa-10-S-2-153x220.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Polyscias-fruticosa-10-S-2-153x220.jpg",
+        isSeeded: true
     },
     {
         name: "Aralia Plant – Balfour", 
@@ -97,7 +106,8 @@ const startPlants = [
         water: "Aralias have very fine roots and are easily over-watered. Always allow the top 1/2 of the soil in the pot to dry out before watering. During the winter when plants are resting, they need even less water. In low light situations, Aralias may need water only once a month.", 
         temperature: "Balfour Aralias like basic household temperatures between 65-80 degrees.", 
         poisonous: "These plants are considered poisonous and should be kept away from pets and children. Read more about common houseplants that can be dangerous in my book Don’t Feed Me to Your Cat: A Guide to Poisonous Houseplants.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Polyscias-scutellaria-10.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Polyscias-scutellaria-10.jpg",
+        isSeeded: true
     },
     {
         name: "Areca Palm", 
@@ -106,7 +116,8 @@ const startPlants = [
         water: "How to water an Areca Palm: Keep the soil barely moist but never soggy. Allow the top few inches of the soil to dry out before watering. Remember, the soil at the bottom of the container is wetter than the soil at the top. Never allow an Areca Palm to sit in the excess water that drains out the drip holes in the bottom of the pot. If your household water has a lot of chemicals in it or passes through a water softener, allow the water to sit out over-night before using it, or use distilled water or rain water. Water containing chemicals or salt may cause ugly spots on the leaves. A Areca palm develops yellow leaves if the soil gets too dry.", 
         temperature: "Best temperature for an Areca Palm: 65F°-75F° (18.3°C-23.9°) during the day and around 55°F (12.8°C) at night. Areca palms are very sensitive to low temperatures so if you place it outside during the summer be sure to bring it in before temperatures dip below 50°F (10°C).", 
         poisonous: "An Areca Palm is non- poisonous plant and safe to have around cats, dogs, or small children.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Dypsis-lutescens-17-153x189.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Dypsis-lutescens-17-153x189.jpg",
+        isSeeded: true
     },
     {
         name: "Arrowhead Plant", 
@@ -115,7 +126,8 @@ const startPlants = [
         water: "How to water an arrowhead plant: Water well, and then allow the top 50% of the soil to dry out before watering again. Leaves may droop when the soil is dry, but the plant quickly perks up when watered. I like to water an arrowhead plant from the bottom to prevent over watering that can cause root rot.", 
         temperature: "Best temperature for an arrowhead plant: These plants grow well when the temperature is 60°-70°F (15.5°-21.1°C). Avoid placing an arrowhead plant near heating vents, air conditioners, cold drafts, and fireplaces.", 
         poisonous: "Is an arrowhead plant poisonous: This plant has a #2 toxicity level which means it is very toxic to dogs, cats, and small children. All parts of the plant contain calcium oxalates which, if ingested, cause swelling of the lips, mouth, tongue, and airways. This swelling makes breathing very difficult.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Syngonium-podophyllum-White-Lightning-08-180x139.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Syngonium-podophyllum-White-Lightning-08-180x139.jpg",
+        isSeeded: true
     },
     {
         name: "Asparagus Fern", 
@@ -124,7 +136,8 @@ const startPlants = [
         water: "How to water an Asparagus Fern: Do not water until the top 50% of the soil has dried out. If in doubt, allow the fronds to turn pale green before watering. An asparagus fern requires more water in the hot summer months, and likes drier soil during the cold winter months. Asparagus ferns are very drought resistant; however, yellow stems indicate the plant needs more water while brown stems mean you may be over- watering your asparagus fern.", 
         temperature: "Best temperature for an Asparagus Fern: Temperature should be between 50°-75°F (10°-24°C). These plants can even survive briefly in temperatures as low as 36°F (2.2°C).", 
         poisonous: "An Asparagus Fern is considered a poisonous plant and should be kept away small children , cats, dogs, and birds. Although the leaves are not harmful, the sharp, small thorns can be painful if touched and the red berries are toxic and cause digestive problems if eaten.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Asparagus.fern_.2010.11.07-1024x848-3-256x212.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Asparagus.fern_.2010.11.07-1024x848-3-256x212.jpg",
+        isSeeded: true
     },
     {
         name: "Azalea", 
@@ -133,7 +146,8 @@ const startPlants = [
         water: 'Allow the top 2"-3" of soil to dry out before watering. Azaleas are acid loving plants; if your water is alkaline add one tablespoon of vinegar to each gallon of water. You can also water azaleas with leftover tea. Large numbers of leaves drop off if the soil is too wet or too dry.', 
         temperature: "Azalea plants thrive and their flowers last longer when the temperature is 50°-60°F (10°-15.6°C) at night and 60°-70°F (15.6°-21.1°C)F during the day. Temperatures over 80°F (26.7°C) cause leaf drop and flowers to quickly fade.", 
         poisonous: "All parts of an Azalea contain a substance called grayanotoxin which makes the plant very poisonous with a #4 toxicity level. Keep azalea plants away from children and pets.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/800px-Azalea_japonica_Madame_Van_Hecke_J2-256x192.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/800px-Azalea_japonica_Madame_Van_Hecke_J2-256x192.jpg",
+        isSeeded: true
     },
     {
         name: "Baby’s Tears Plant", 
@@ -142,7 +156,8 @@ const startPlants = [
         water: "Keep the soil of a Baby Tear's plant moist but never soggy. If the soil stays too wet, the roots and stems die.", 
         temperature: "Normal household temperatures or even a little cooler are best, 60°-75°F (15.6°-23.9°C) is ideal.", 
         poisonous: "A Baby's Tears plant is non- poisonous and looks perfect in a child's room.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Babys-Tears-Plant-180x135.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Babys-Tears-Plant-180x135.jpg",
+        isSeeded: true
     },
     {
         name: "Bamboo Palm", 
@@ -151,7 +166,8 @@ const startPlants = [
         water: "Allow the top 1/3 of the soil of a bamboo palm to dry out before watering. These plants like barely moist but never soggy soil. Never allow a bamboo palm to sit in the excess water that drains from the pot. Do not use water that has passed through a softener because the high salt content damages the leaves. Leaf tips look pale in color and green leaves fall off when a bamboo palm is over-watered. New growth and leaf tips turn brown when a bamboo palm is under-watered. The confusing thing is that yellow leaves can develop when the plant is over or under- watered, so you need to check the soil as far down as you can to know if the plant needs water.", 
         temperature: "A bamboo palm does well in temperatures between 65°-80°F (18.3°-26.7°C).", 
         poisonous: "Although the ASPCA lists a bamboo palm as a non- poisonous houseplant, other experts state that the entire plant, especially any berries that appear, is toxic. We've erred on the side of caution and have listed a Bamboo Palm as a poisonous houseplant with a #1 toxicity level.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Chamaedorea-erumpens-10-2-153x205.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Chamaedorea-erumpens-10-2-153x205.jpg",
+        isSeeded: true
     },
     {
         name: "Begonia Plant", 
@@ -160,7 +176,8 @@ const startPlants = [
         water: "Water a begonia well and then allow the top 50% of the soil to dry out before watering again. Too much water causes mildew, mold, and permanent root damage. Water dripped on the leaves may cause leaf-rot.", 
         temperature: "Begonias plants do well in cool temperatures between 65°-75°.", 
         poisonous: "Begonias are poisonous plants with a #1 toxicity level. They are especially toxic to dogs and cats.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/a-tuberous-begonia-orange-gr-153x153.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/a-tuberous-begonia-orange-gr-153x153.jpg",
+        isSeeded: true
     },
     {
         name: "Begonia Rex Plant", 
@@ -169,7 +186,8 @@ const startPlants = [
         water: "How to water a Begonia rex: A begonia rex plant likes to be evenly watered, but hates to be over-watered. Wait to water until the top 30%-50% of the soil has dried out before you water. During the winter, when the plant is dormant, water even less. keep in mind the the soil at the bottom of the pot is always wetter than the soil at the top of the pot.", 
         temperature: "Best temperature for a Begonia rex: This is a plant that likes to be warm all of the time so be careful to avoid cold drafts in the winter. A Begonia rex can be damaged if the temperature goes below 60°F (15.6°C). The leaves can also be damaged by large temperature swings.", 
         poisonous: "Is a Begonia rex a poisonous plant: A Begonia rex is a mildly poisonous plant with a #1 toxicity level. These plants are especially toxic to cats and dogs.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Begonia-rex-10-256x175.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Begonia-rex-10-256x175.jpg",
+        isSeeded: true
     },
     {
         name: "Bird of Paradise Plant", 
@@ -178,7 +196,8 @@ const startPlants = [
         water: "In the spring and summer keep the soil moist but never soggy. A Bird of Paradise plant needs less water in the fall and winter. Water from the bottom so the soil stays loose and remains well aerated. Water that has a high salt content burns the leaves.", 
         temperature: "An indoor Bird of Paradise plant grows best in temperatures between 65°-75°F (18.3°-23.9°C) during the spring, summer, and fall. In the winter, when the plant is \"resting,\" keep the temperature 10° cooler. Temperatures below 50°F (10.0°C) cause the leaves to curl and turn black.", 
         poisonous: "A Bird of Paradise plant has a #1 toxicity level.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Strelitzia-nicolai-14-2-768x821-2-142x152.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Strelitzia-nicolai-14-2-768x821-2-142x152.jpg",
+        isSeeded: true
     },
     {
         name: "Bird’s Nest Fern", 
@@ -187,7 +206,8 @@ const startPlants = [
         water: "The soil of a Bird's Nest fern should be kept barely moist but never soggy at all times.", 
         temperature: "A Bird's Nest fern grows well when the temperatures is between 70°-90°F (21.1°-32.2°C) during the day and about 10° cooler at night. These slow growing ferns grow even more slowly when the temperature is not warm and the fronds are quickly damaged by hot or cold drafts. The base of the fronds of a Bird's Nest fern turn yellow when the temperature is too warm.", 
         poisonous: "Bird's Nest ferns are non- poisonous houseplants and are not toxic cats, dogs, and other pets.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Birds-Nest-Asplenium-nidus-10-1-248x235.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Birds-Nest-Asplenium-nidus-10-1-248x235.jpg",
+        isSeeded: true
     },
     {
         name: "Bleeding Heart VIne", 
@@ -196,7 +216,8 @@ const startPlants = [
         water: "Keep the soil of a Bleeding Heart plant moist in the spring and summer but not soggy. When a Bleeding Heart plant is resting in the fall and winter, place it in a cool location and water infrequently. Never use ice cold water.", 
         temperature: "A Bleeding Heart does well in regular household temperatures in the spring and summer, but likes cooler temperatures between 55°-60°F (12.8°C-15.6°C) when it is resting in the late fall and winter.", 
         poisonous: "Bleeding Heart Plants are poisonous houseplants with a level #3 toxicity. Quite a bit of the plant needs to be eaten before there is a serious problem. However, small children, small dogs, and other pets should be kept away from this plant.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/800px-Bleeding_Heart_Vine_Clerodendrum_thomsoniae-256x144.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/800px-Bleeding_Heart_Vine_Clerodendrum_thomsoniae-256x144.jpg",
+        isSeeded: true
     },
     {
         name: "Boston Fern", 
@@ -205,7 +226,8 @@ const startPlants = [
         water: "How much water for a Boston fern: Allow the top 30% of the soil to dry-out before watering. The fronds or leaves may turn a pale green which indicates the fern needs water. Yellow, limp, rotting fronds, especially in the center of a Boston fern, mean the plant is being over-watered. Crispy leaves indicate the fern needs more water. Using \"hard water\" causes unsightly white marks on the fronds. A Boston fern is more drought-resistant than most ferns, so when in doubt, don't water.", 
         temperature: "Best temperature for a Boston fern: Temperature should be 60°-70°F (15.6-21.1°C). Keep all varieties of indoor ferns away from heat sources such as fireplaces and heaters. If the temperature drops below 50°F (10°C) or goes above 90°F (32.2°C), it may damage the leaves.", 
         poisonous: "Is a Boston fern poisonous: Ferns are non- poisonous and are safe to have around small children, cats, dogs, and other pets.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Nephrolepis-exaltata-08-256x253-1-238x235.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Nephrolepis-exaltata-08-256x253-1-238x235.jpg",
+        isSeeded: true
     },
     {
         name: "Bougainvillea Plant", 
@@ -214,7 +236,8 @@ const startPlants = [
         water: "Bougainvillea is a drought tolerant plant that should be kept on the dry side. Allow the top 50% of the soil to dry out before watering. A bougainvillea may even wilt a little to let you know it needs water. When you do water a bougainvillea plant, water deeply and cover the entire surface of the soil. Good drainage is essential and a bougainvillea should never sit in water. Frequent light waterings encourages weak roots and discourages good flower color. During the winter, a bougainvillea requires even less water. If over-watered bougainvillea plants develop root rot, do not flower, and drop leaves. If the soil totally dries out, bracts and leaves fall off.", 
         temperature: "A bougainvillea does well in temperatures between 70°-85°F during the day and 60°-70°F at night. When resting during the winter, Bougainvilleas prefer temperatures between 50°-60°F.", 
         poisonous: "A Bougainvillea Plant is a very poisonous houseplant and has a #3 Toxicity level. The sap from a Bougainvillea can cause a rash that resembles poison ivy so be sure to wear gloves when pruning this plant.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Bougainvillea-Pink-10-1-256x178.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Bougainvillea-Pink-10-1-256x178.jpg",
+        isSeeded: true
     },
     {
         name: "Bromeliad Plant – Silver Vase", 
@@ -223,7 +246,8 @@ const startPlants = [
         water: "Keep the “cup” of this type of bromeliad filled with fresh water. Clean the cup weekly and replace the water with clean water to prevent diseases, gnats, and mosquitos. Dampen the soil and do not water again until the top 1/2” of soil has dried out. Never allow the soil to totally dry out and never use hard water. The lime in hard water disfigures the leaves. These plants have a very small root system so be careful not to over-water.", 
         temperature: "The colorful bracts last longer if you keep the temperature between 6o°-75° F (17°- 24° C). Aechmea fasciatas can survive colder temperatures than other bromeliads.", 
         poisonous: "Although considered a non- poisonous houseplant, a bromeliad contains substances that may cause skin irritations and contact dermatitis in some people and pets.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Aechmea-fasciata-158x152.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Aechmea-fasciata-158x152.jpg",
+        isSeeded: true
     },
     {
         name: "Bromeliad Plant- Guzmania", 
@@ -232,7 +256,8 @@ const startPlants = [
         water: "Bromeliad plants are drought resistant succulents that like dry soil. A bromeliad plant has very small roots and over-watering is the number one reason bromeliad plants die. Some bromeliad plant varieties have \"tanks\" that like being filled with water; others varieties have fine hairs on their leaves that enjoy being misted.", 
         temperature: "Bromeliad plants are tropical plants that can survive in temperatures between 40F°-100°F (4.4C°-37.8°C) but prefer 70F°-75°F (21.1C- 23.9°C) during the day and ten degrees cooler at night. The blooms on a Bromeliad plant last longer when the temperature is cool.", 
         poisonous: "Bromeliads are non- poisonous houseplants.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/guzmania-bromeliad-126x152.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/guzmania-bromeliad-126x152.jpg",
+        isSeeded: true
     },
     {
         name: "Cactus Plant", 
@@ -241,7 +266,8 @@ const startPlants = [
         water: "A cactus plant requires more water in the spring, summer, and early fall when it is growing than in the winter. Allow the soil of a cactus plant to almost dry out before watering during the winter months. Over-watering is the main reason a cactus plant dies.", 
         temperature: "An indoor cactus plant likes temperatures between 60°-80°F (15.6°-26.7°C)", 
         poisonous: "Although a cactus plant is not a poisonous plant, getting a puncture wound from one of the sharp spines is very unpleasant and could be dangerous if not properly being taken care of.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Cereus-peruvianus-monstrosus-10-1-137x235.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Cereus-peruvianus-monstrosus-10-1-137x235.jpg",
+        isSeeded: true
     },
     {
         name: "Caladium Plant", 
@@ -250,7 +276,8 @@ const startPlants = [
         water: "The soil of a caladium plant should be moist but never soggy during the growing season. As the leaves start to die in the early fall and the caladium plant goes into its resting/dormant period, gradually reduce the water to about once every 4-6 weeks.", 
         temperature: "A caladium plant likes warm temperatures between 70°-85°F (21.1°-29.4°C) with as little fluctuation in temperature as possible. During the five or so months when a caladium plant is dormant, the temperature should be cooler but never below 55°F (12.8°C).", 
         poisonous: "A Caladium plant is a very poisonous plant with a #3 toxicity level.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Caladium_bicolor_Florida_Sweetheart_Plant_2220px-171x152.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Caladium_bicolor_Florida_Sweetheart_Plant_2220px-171x152.jpg",
+        isSeeded: true
     },
     {
         name: "Calathea Plant", 
@@ -259,7 +286,8 @@ const startPlants = [
         water: "How to water a calathea plant: Calathea plants are very sensitive to the water you use. Hard water, soft water, fluoridated water, or water of poor quality causes ugly, brown leaf burn. The best way to water is to use distilled water, rain water, or allow your tap water to sit out over night before using it. Keep the soil of a Calathea plant barely moist but never soggy. Allow the top 2-3” to dry out before watering and never allow the plant to sit in the excess water.", 
         temperature: "Calatheaplants like temperatures between 65°-80°F (18.3°-26.7°C), and do not like cold drafts or temperatures below 55°-60°F (12.8°-15.6°C). Hot temperatures cause the leaves of a Calathea plant to curl.", 
         poisonous: "A Calathea plant is a non- poisonous plant and safe to have around young children and your pets..", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Calathea-pictura-Argentea-08-1-176x152.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Calathea-pictura-Argentea-08-1-176x152.jpg",
+        isSeeded: true
     },
     {
         name: "Calathea Ornata", 
@@ -268,7 +296,8 @@ const startPlants = [
         water: "The leaves of calathea plants are easily damaged by the quality of the water you use. Hard water or soft water, water with a high chemical content (fluorine, chlorine, or salt), water that has passed through a softener, or water of poor quality causes leaf tip burn. Use distilled water, rain water, or allow your tap water to sit out over night before using it. Calathea plants like moist but not soggy, soil at all times; never let the plant sit in water. Allow the top 2-3” of the soil to dry out before watering.", 
         temperature: "Calathea plants prefer temperatures between 65°-80°F (18.3°-27.7°C) , and don't do well in cold drafts or temperatures below 55°-60°F (12.8°-15.6°C). The leaves of a calathea plant curl when the temperature is too warm.", 
         poisonous: "Calathea are non- poisonous plants.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Calathea-ornata-Rosea-lineata-06-3-246x235.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Calathea-ornata-Rosea-lineata-06-3-246x235.jpg",
+        isSeeded: true
     },
     {
         name: "Calla Lily Plant", 
@@ -277,7 +306,8 @@ const startPlants = [
         water: "These plants like moist soil at all times. Calla Lilies are not drought resistant and should never be allowed to totally dry out. Keep the soil moist but not soggy. Never allow a Calla Lily to sit in water for more than 15 minutes.", 
         temperature: "Room temperatures should be between 50°-75°F (10°-24°C) for optimal growth. Keep Calla Lilies away from heating and air conditioning vents. If planted outdoors, be sure to dig up the Calla Lily bulbs and bring them inside before temperatures dip below freezing.", 
         poisonous: "A Calla Lily is a very poisonous houseplant with a #3 toxicity level. Please keep it away from small children and pets. This plant contains high levels of calcium oxalate and ingestion may cause severe burning and swelling of the mouth, throat, lips, and tongue. Stomach distress and diarrhea can also occur.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/640px-Pink_Calla_Lily_Zantedeschia_rehmannii_2000px.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/640px-Pink_Calla_Lily_Zantedeschia_rehmannii_2000px.jpg",
+        isSeeded: true
     },
     {
         name: "Cast Iron Plant", 
@@ -286,7 +316,8 @@ const startPlants = [
         water: "How to water a cast iron plant: Allow the top 50% of the soil to dry out before watering. The lower the light the less often a cast Iion plant needs to be watered. In very low light, this plant may need water only every 2-3 weeks. over watering is the main reason a cast iron plant dies.", 
         temperature: "What is the best temperature for a cast iron plant: A cast iron plant does well in temperatures between 50°F-75°F (10°C-23.9°C). This plant can even survive in temperatures as low as 45°F(7.2°C).", 
         poisonous: "Is a cast iron plant poisonous: This is a non- poisonous plant and is not toxic to cats, dogs, or children.", 
-        image:"https://www.houseplant411.com/wp-content/uploads/Aspidistra-elatior-10-2-300x247.jpg"
+        image:"https://www.houseplant411.com/wp-content/uploads/Aspidistra-elatior-10-2-300x247.jpg",
+        isSeeded: true
     },
     {
         name: "Cat Palm", 
@@ -295,7 +326,8 @@ const startPlants = [
         water: "How to water a Cat Palm: Water often enough to keep the barely soil moist, but not soggy, at all times. Never allow the soil to totally dry out. The fronds of a Cat Palm turn yellow when the soil is too dry. Salty water or water containing chemicals such as fluoride, chlorine cause leaf tip burn. Entire fronds turn brown when a Cat Palm is over watered.", 
         temperature: "Best temperature for a Cat Palm: These plants do well in 70°- 80°F (21.1°-26.7°C) during the day and no lower than 45°F(7.2°C) at night. Palms like to be in a warm environment, but too much dry heat causes leaf damage. Keep Cat Palms away from air conditioners, heating vents, fire places, and cold winter drafts,", 
         poisonous: "Cat Palms are non- poisonous and safe to have around cats, dogs, and small children.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/il_1588xN.2927488134_2zsg-225x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/il_1588xN.2927488134_2zsg-225x300.jpg",
+        isSeeded: true
     },
     {
         name: "China Doll Plant", 
@@ -304,7 +336,8 @@ const startPlants = [
         water: "China Doll plants want to be kept on the dry side. Allow the top 50% of the soil to dry out before watering. The foliage may even turn a pale green when a China Doll plant needs water. Water around the entire soil surface so water reaches all of the roots.", 
         temperature: "A China Doll Plant does well in temperatures between 65°-75°F (18°-24°C). Keep China Doll Plants away from drafts and cold windowsills or the leaves fall off.", 
         poisonous: "A China Doll plant is a non- poisonous houseplant.", 
-        image:"https://www.houseplant411.com/wp-content/uploads/Radermachera-sinica-061-copy-256x184.jpg"
+        image:"https://www.houseplant411.com/wp-content/uploads/Radermachera-sinica-061-copy-256x184.jpg",
+        isSeeded: true
     },
     {
         name: "Chinese Evergreen Plant", 
@@ -313,7 +346,8 @@ const startPlants = [
         water: "Allow the top 25-30% of the soil to dry out before watering. When the soil of a Chinese Evergreen plant is too wet, the stems become mushy and die. When the soil gets too dry or too wet, yellow leaves develop. The lower the light, the less water the plant needs.", 
         temperature: "Warm temperatures between 70°F (21.1°C) and Temperatures below 50°F (10° C) can damage the leaves. Keep a Chinese Evergreen plant away from cold winter drafts and air conditioners.", 
         poisonous: "Chinese Evergreen contain calcium oxalate crystals and are poisonous plants with a #2 toxicity level. Adverse reactions include: skin irritations after contact with the sap, irritation of mouth, lips, throat, and tongue if leaves are eaten. Please keep this plant away from small children, cats, dogs, and other pets.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Aglaonema-Emerald-Beauty-08-2-300x248.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Aglaonema-Emerald-Beauty-08-2-300x248.jpg",
+        isSeeded: true
     },
     {
         name: "Chinese Evergreen Plant - Amelia", 
@@ -322,7 +356,8 @@ const startPlants = [
         water: "Allow the top 25-30% of the soil to dry out before watering. When the soil stays too wet for a long period of time, the stalks rot and die. If the soil gets too dry or too wet, yellow leaves develop.", 
         temperature: "Temperatures below 50°F (10°C) can damage the leaves of Chinese Evergreen houseplants. Keep these plants out of cold winter drafts and away from air conditioners.", 
         poisonous: "Chinese Evergreen plants are poisonous with a #2 toxicity level due to the calcium oxalate crystals in the plant. Adverse reactions after contact with the sap include: skin irritations, irritation of mouth, lips, throat, and tongue if the leaves are eaten.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Aglaonema-Amelia-14-300x265.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Aglaonema-Amelia-14-300x265.jpg",
+        isSeeded: true
     },
     {
         name: "Christmas Cactus Plant", 
@@ -331,7 +366,8 @@ const startPlants = [
         water: "How to water a Christmas Cactus: Allow the top 50% of the soil to dry out before watering. Buds fall off when the plant is over watered or severely under watered. Root rot is another problem caused by giving the plant too much water. Reduce the amount of water once a Christmas Cactus has finished flowering, and start watering again normally once it starts to produce new leaves.", 
         temperature: "Best temperature for a Christmas Cactus: The right temperature is important if you want a Christmas cactus to produce flowers. To set the flower buds, the plant needs cool temperatures between 60°-65°F (16°-18°C) during the day and even cooler temperatures between 45°-55°F (7°-13°C) at night. Once buds have developed, provide warm temperatures between 70°F-75°F (21°C-24°C) during the day and 10° cooler temperatures at night. Cool temperatures help the flowers on a Christmas cactus to last longer.", 
         poisonous: "Christmas cactus are not toxic to pets (dogs and cats) or children", 
-        image: "https://www.houseplant411.com/wp-content/uploads/christmas-cactus-lrg-225x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/christmas-cactus-lrg-225x300.jpg",
+        isSeeded: true
     },
     {
         name: "Chrysanthemum Plant", 
@@ -340,7 +376,8 @@ const startPlants = [
         water: "Allow the top few inches of soil to dry out slightly before you water. Green leaves become soft and droopy when the soil is dry.", 
         temperature: "Cool temperatures help the blooms on a Chrysanthemum last longer and high temperatures cause the blooms to quickly fade. 70°F (21°C) during the day and not below 60° F (15.5°C) at night are the best temperatures for a Mum plant.", 
         poisonous: "Chrysanthemums are slightly poisonous with a #1 toxicity level. They are toxic to dogs, cats, and horses. Mums contain Sesquiterpene, lactones, pyrethrins and other potential irritants that can cause vomiting, diarrhea, hypersalivation, incoordination, and skin problems.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/yellow-daisy-chrysanthemum-plant-5d667ff70e259.425.jpg-300x300.png"
+        image: "https://www.houseplant411.com/wp-content/uploads/yellow-daisy-chrysanthemum-plant-5d667ff70e259.425.jpg-300x300.png",
+        isSeeded: true
     },
     {
         name: "Cineraria Plant", 
@@ -349,7 +386,8 @@ const startPlants = [
         water: "Keep a Cineraria Plant moist but never soggy. Always allow the top inch or two of soil in a Cineraria Plantto dry out before watering. Cineraria Plants can sit in the excess water for 15 minutes then be sure to empty the saucer. The more blooms a Cineraria Plant has, the more water it needs.", 
         temperature: "Feed a Cineraria Plant in April with a water-soluble plant food high in phosphorous at 1/2 the recommended strength.", 
         poisonous: "A Cineraria is a poisonous house plant with a #2 toxicity level and should be kept away from small children and pets.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/oldimages/Plant_46/634643886094413645.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/oldimages/Plant_46/634643886094413645.jpg",
+        isSeeded: true
     },
     {
         name: "Clivia Plant", 
@@ -358,7 +396,8 @@ const startPlants = [
         water: "During the spring and summer, water well and then allow the top 50% of the soil to dry out before watering again. Reduce your water in the fall; and allow the soil dry out before you water during the winter. Pale green or orange lesions on the leaves indicate you are over-watering.", 
         temperature: "A Clivia Plant prefers temperatures between 65°-70° F (18.3°-21.1° C) during the spring summer, and early fall. From November to February, when your Clivia plant is 'resting' the temperature should be 50°-55° F (10°-12.8°C). A Clivia plant does not do well in temperatures below 50° F (10°C).", 
         poisonous: "A Clivia plant is a very poisonous houseplant with a #3 toxicity level.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/634643392675473116-copy-300x225.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/634643392675473116-copy-300x225.jpg",
+        isSeeded: true
     },
     {
         name: "Coffee Plant", 
@@ -367,7 +406,8 @@ const startPlants = [
         water: "How to water a coffee plant: Water a coffee plant when the top 1“- 2“of soil has dried out. These plants are not drought resistant and can suffer permanent damage if the soil totally dries out. Leaves fall off if the plant is over or under watered.", 
         temperature: "Besttemperature for a coffee plant: These plants prefer constant temperatures between 60°-75° F (18.3°-23.9°C), and can suffer damage if the temperature goes below 42°F (5.6°C) or above 78°F (25.6°C).", 
         poisonous: "All parts of a coffee plant are toxic to dogs, cats, and small children. Ingesting any part of the plant can cause hyper-activity, diarrhea, and vomiting.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/1280px-Coffee_Flowers-300x225.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/1280px-Coffee_Flowers-300x225.jpg",
+        isSeeded: true
     },
     {
         name: "Coleus Plant", 
@@ -376,7 +416,8 @@ const startPlants = [
         water: "A coleus plant is a fast- growing plant and the soil dries out more quickly than with many other indoor plants. Always allow the top few inches of soil to dry out before watering. Frequent wilting due to under-watering causes the leaves to develop crispy edges, dull colors, and brown spots. Over-watering is more serious and results in root rot.", 
         temperature: "A coleus plant likes warm temperatures between 70°-85°F (21.1°-29.4°C) though it can survive in temperatures as low as 55°F (12°C).", 
         poisonous: "Although a coleus plant is listed as a non- poisonous plant, it is not considered totally safe. I would err on the side of caution andkeep a coleus away from pets and small children.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/7389de6b288e1a7ff5633b1b19e44d1e-152x152.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/7389de6b288e1a7ff5633b1b19e44d1e-152x152.jpg",
+        isSeeded: true
     },
     {
         name: "Croton Plant", 
@@ -385,7 +426,8 @@ const startPlants = [
         water: "Allow the top 25%-30% of the soil to dry out before watering. The hard, leathery leaves become soft and flexible when a croton needs water. When the plant is over watered or severely under watered, leaves drop off.", 
         temperature: "Warm temperatures between 60°-80°F (15.6°-26.7°C) are best for a croton. If the temperature drops below 50°F (10°C) leaves may drop off.", 
         poisonous: "Crotons are very poisonous plants with a #3 toxicity level. They are toxic to small children, cats, dogs, and other pets so please keep them well out of reach.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Codiaeum-petra-08-1-256x179.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Codiaeum-petra-08-1-256x179.jpg",
+        isSeeded: true
     },
     {
         name: "Crown of Thorns Plant", 
@@ -394,7 +436,8 @@ const startPlants = [
         water: "During the late spring and into early fall, water a Crown of Thorns plant when the top 50% of the soil has dried out. Reduce the amount of water during the winter when a Crown of Thorns plant is not producing new leaves and flowers. Never allow the soil to totally dry out, or a Crown of Thorns plant may develop severe root damage.", 
         temperature: "A Crown of Thorns plant likes to be warm and does well in temperatures between 55° F (12.8C) - 95°F (35°C). A Crown of Thorns plant may lose leaves if the temperature goes below 55°F (12.8°C).", 
         poisonous: "A Crown of Thorns is a poisonous houseplant with a level #2 toxicity. Broken or damaged leaves and stems ooze a milky latex substance that may cause blistering and pain if it gets on any open cuts. A Crown of Thorns plant is very toxic to small children, cats, dogs , and other pets. If consumed, it causes severe mouth irritation, gastro- intestinal problems, and even hemorrhages can occur.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Crown-Of-Thorns-Plant-180x100.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Crown-Of-Thorns-Plant-180x100.jpg",
+        isSeeded: true
     },
     {
         name: "Ctenanthe Plant", 
@@ -403,7 +446,8 @@ const startPlants = [
         water: "Keep the soil evenly moist but never soggy. Ctenanthes do not like to dry out, and do not like cold or hard water.", 
         temperature: "Ctenanthes like warm consistent temperatures and will not tolerate temperatures below 60°F (15°C).", 
         poisonous: "A Ctenanthe plant is slightly poisonous, although it is often listed as non-toxic. It may cause individual allergic reactions. The ASPCA states that it is not poisonous to dogs and cats.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Ctenanthe-lubbersiana-06-1-246x235.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Ctenanthe-lubbersiana-06-1-246x235.jpg",
+        isSeeded: true
     },
     {
         name: "Cyclamen Plant", 
@@ -412,7 +456,8 @@ const startPlants = [
         water: "People who have problems with cyclamen plants usually make the mistake of watering them from the top rather than the bottom. Also, never water the very center of the plant. Allow the top 50% of the soil to dry out before watering. When your Cyclamen starts to droop a little, place it in a deep saucer of water for about 10 minutes, filling the saucer as needed. Allow the excess water in the soil to drain before returning the plant to its decorative container. Cyclamen leaves do not like to be wet, so try to keep them dry at all times.", 
         temperature: "Indoors cylamen grow faster and bloom more often in cool temperatures between 55°-65°F (12.8°-18.3°C). When cyclamen plants are dormant, during the spring and summer, place them in an area where the temperature is never below 45°F (7.2°C) or above 60° F (15.5°C). Avoid placing them in drafts or in front of heaters.", 
         poisonous: "Cyclamen are very poisonous plants with a #3 toxicity level. These plants contain saponins and all parts of the plant, especially the tubers and roots, can cause severe reactions if ingested. Cyclamen are especially harmful to dogs and cats.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/cyclamen-copy-153x204.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/cyclamen-copy-153x204.jpg",
+        isSeeded: true
     },
     {
         name: "Desert Rose Plant", 
@@ -421,7 +466,8 @@ const startPlants = [
         water: "The fat, bulbous base (caudex) of a Desert Rose stores water, so always allow the soil to practically dry out before watering. If the soil gets excessively dry, the plant becomes dormant; but once you water, leaves quickly start to grow again. The thick base, stems, and roots of a Desert Rose plant become soft and wrinkled when the soil is very dry or when the plant has been over watered and the roots have started to die.", 
         temperature: "A Desert Rose likes very warm temperatures. Keep the room above 60°F (15.6°C) and avoid placing the plant near air conditioners or cold drafts.", 
         poisonous: "A Desert Rose plant is a very poisonous houseplant with a #2 Toxicity level.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Anna-Mirizio-153x204.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Anna-Mirizio-153x204.jpg",
+        isSeeded: true
     },
     {
         name: "Dieffenbachia Plant", 
@@ -430,7 +476,8 @@ const startPlants = [
         water: "How to water a dieffenbachia plant: Water well and then allow the top 2\"-3\" of the soil to dry out before watering again. A dieffenbachia plant does best when watered on a regular schedule. If the soil gets too dry, the bottom leaves may turn yellow. If a dieffenbachia plant is over- watered, the plant stems get soft and mushy and the plant starts to die.", 
         temperature: "Best temperature for a dieffenbachia plant: A dieffenbachia plant prefer temperatures above 60°F (15.6°C). The lower leaves on the plant turn yellow when exposed to cold drafts from doors, windows, or air conditioners.", 
         poisonous: "A dieffenbachia plant is extremely poisonous with a #4 toxicity level and very toxic to cats, dogs, and small children. If the sap from a dieffenbachia gets on your skin, wash it off immediately. Seek medical advice if a child or pet ingests any part of a dieffenbachia plant.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Dieffenbachia-amoena-Tropic-Snow-10-3-153x181.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Dieffenbachia-amoena-Tropic-Snow-10-3-153x181.jpg",
+        isSeeded: true
     },
     {
         name: "Donkey’s Tail Plant", 
@@ -439,7 +486,8 @@ const startPlants = [
         water: "Succulent Plants need to dry out before you water, and a Donkey’s Tail plant is no exception. Water well and then don't water again until the soil has almost completely dried out. Over-watering a Donkey's Tail plant or any succulent plant is the easiest way to kill it. The leaves of the plant become flat and even a little wrinkled when it needs water. Keep the soil even drier in the winter when the plant is dormant.", 
         temperature: "A Donkey's Tail plant grows best when the temperature is between 65°-75°F (18.3°-23.9°C). During the winter, when the plant is dormant, lower the temperature by 10°, keep the plant out of drafts, and away from cold doors & windows.", 
         poisonous: "Donkey's Tail plant is the common name for Sedum Morganianum and is a non- poisonous houseplant.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Donkeys-Tail-Plant-04-180x152.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Donkeys-Tail-Plant-04-180x152.jpg",
+        isSeeded: true
     },
     {
         name: "Dracaena Compacta", 
@@ -448,7 +496,8 @@ const startPlants = [
         water: "Like other indoor houseplants, a dracaena compacta uses less water in low light than in brighter light. Keep the plant on the dry side to prevent root rot and Leaf Spot Disease. Allow the top ¾ of the soil to dry out before watering. In low light this could be two weeks or more. Compacta plants do better when watered on a regular schedule. Dark brown tips usually indicate the following: too much chlorine or fluoride in the water, water is too salty (never use water that has passed through a softener), or too much plant food. Muddy brown leaf tips on new growth means the plant needs more water.", 
         temperature: "Dracaena compacta plants like warm room temperatures 60-75°F (16-24°C). Cold winter drafts and heaters can damage the leaves.", 
         poisonous: "There is a lot of disagreement as to whether Dracaenas are poisonous houseplants. I give them a #1 toxicity level. Dracaenas may cause intestinal issues if eaten by a small child, dog, or cat.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Dracaena-deremensis-Janet-Craig-Compacta-10-BU-1-133x152.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Dracaena-deremensis-Janet-Craig-Compacta-10-BU-1-133x152.jpg",
+        isSeeded: true
     },
     {
         name: "Dracaena Corn Plant", 
@@ -457,7 +506,8 @@ const startPlants = [
         water: "Like all dracaenas, allow the top 50-75% of the soil to dry out before watering. A corn plant dracaena survives under-watering, but quickly dies from over-watering. If your water contains fluoride or chlorine, allow it to sit out over-night before using it so the chemicals can dissipate. High concentrations of fluoride damage the leaves and cause brown leaf tips. Never use water that has passed through a softener; it is too salty and causes leaf damage.", 
         temperature: "Corn plant dracaenas do well in temperatures between 65°-80°F (18°-26.5°C).", 
         poisonous: "Corn plant dracaenas are slightly poisonous with a #1 toxicity leval.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Dracaena-fragrans-Massangeana-10-432-2-126x235.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Dracaena-fragrans-Massangeana-10-432-2-126x235.jpg",
+        isSeeded: true
     },
     {
         name: "Dracaena Janet Craig", 
@@ -466,7 +516,8 @@ const startPlants = [
         water: "When in doubt, do not water a Dracaena janet craig! Allow the top 50% of the soil to dry out before watering. The lower the light, the less often a dracaena needs water. Fluoride, chlorine, or salt in the water causes brown leaf tips and yellow spots on the leaves.", 
         temperature: "A Dracaena janet craig prefers temperatures above 55°F (12.8°C). Cold winter drafts and blowing heaters damage the leaves.", 
         poisonous: "A Dracaena janet craig is sometimes listed as a non- poisonous houseplant; however, some pets, especially cats and dogs, have experienced problems after eating the leaves. My advice, keep all dracaenas away from your pets.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Dracaena-deremensis-Janet-Craig-14-BU-1-230x300-2.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Dracaena-deremensis-Janet-Craig-14-BU-1-230x300-2.jpg",
+        isSeeded: true
     },
     {
         name: "Dracaena Lemon Lime", 
@@ -475,7 +526,8 @@ const startPlants = [
         water: "Allow the top 50% of the soil to dry out before watering. Dracaenas are very sensitive to chemicals in the water. If your household water contains a lot of fluorine or chlorine, allow it to sit out over night before using it. Never use water that has passed through a water softener, it is too salty.", 
         temperature: "Provide warm temperatures between 70°-75°F (21.1°-23.9°C).", 
         poisonous: "The ASPCA considers a dracaena lemon lime a poisonous plant to dogs and cats", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Dracaena-deremensis-Gold-Star-10-BU-2.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Dracaena-deremensis-Gold-Star-10-BU-2.jpg",
+        isSeeded: true
     },
     {
         name: "Dracaena Marginata", 
@@ -484,7 +536,8 @@ const startPlants = [
         water: "Over-watering causes root-rot and is the main reason a Dracaena marginata dies. Water well and don't water again until the top 50% of the soil is dry. In low light, this could take up to three weeks. Brown tips on the leaves indicate over-watering or too much fluoride or salt in the water. Never use water that has passed through a softener, it is too salty. If your household water has a lot of chemicals, allow it to sit out overnight before using it or use rain water or distilled water. This is a stalk plant, so it is common for the lower leaves to turn yellow and fall off if the plant is getting new leaves at the top. Numerous yellow leaves means the plant needs more water.", 
         temperature: "These plants prefer temperatures between 70°-80°F (21.1°- 26.7°C).", 
         poisonous: "A dracaena marginata is mildly poisonous to humans, but they are extremely toxic to dogs and cats with a #2 toxicity level.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Dracaena-marginata-10-ML-3-215x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Dracaena-marginata-10-ML-3-215x300.jpg",
+        isSeeded: true
     },
     {
         name: "Dracaena Reflexa", 
@@ -493,7 +546,8 @@ const startPlants = [
         water: "Like all dracaenas, the reflexa likes to be kept on the dry side. Allow the top 50% of the soil to dry out before watering. I always suggest keeping the plant a little root bound in a small pot so the soil can dry out quickly and the roots do not stay wet too long. When you do water, water well enough so that it comes out the drip holes in the bottom of the pot. Dracaenas are very sensitive to fluorine in the water. If you water has a lot of chemicals in it, allow the water to sit out for 24 hours before using it; alternatively you can use rain water or distilled water.", 
         temperature: "Basic household temperatures between 65°-85° are ideal.", 
         poisonous: "A dracaena reflexa is considered non-toxic to humans but cases have been reported of cats suffering tremors after nibbling on a reflexa.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Dracaena-reflexa-14-ML-232x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Dracaena-reflexa-14-ML-232x300.jpg",
+        isSeeded: true
     },
     {
         name: "Dracaena Reflexa Song of India", 
@@ -502,7 +556,8 @@ const startPlants = [
         water: "Like all dracaenas, the reflexa likes to be kept on the dry side. Allow the top 50% of the soil to dry out before watering. Over- watering, resulting in root rot, is the main reason this plant dies.", 
         temperature: "65°F (18.3°C) - 85°F (29.4°C). Temperatures below 55°F (12.8°C) can damage the leaves. Avoid cold drafts and heaters.", 
         poisonous: "A Dracaena reflexa is usually listed as a non-toxic plant, but cases have been reported of cats suffering tremors after eating some of the leaves.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Dracaena-reflexa-Song-of-India-08-2-283x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Dracaena-reflexa-Song-of-India-08-2-283x300.jpg",
+        isSeeded: true
     },
     {
         name: "Dracaena warnekii", 
@@ -511,7 +566,8 @@ const startPlants = [
         water: "All dracaena plants like to be kept on the dry side. Water well and then allow the top 50% of the soil to dry out before watering again. Never allow the plant to sit in water. The lower the light level the less water a dracaena warnekii needs. All types of dracaenas are very sensitive to fluorine and chlorine. If your household water is heavily chlorinated or contains a great deal of fluoride, allow it to sit out over night before using it; use water from an outside hose; use rain water or distilled water. Never use water that has passed through a water softener. It is too salty and can damage the leaves.", 
         temperature: "Usual household temperatures between 65°- 80°F (18.3°-26.7°C). are fine for a Dracaena Warnekii. Keep the leaves of striped dracaenas away from cold windows, air conditioners, and heaters.", 
         poisonous: "Dracaena warnekii plants have a level #1 toxicity and are considered slightly poisonous especially to dogs and cats.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Dracaena-deremensis-Warneckei-14-BU-2-300x209.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Dracaena-deremensis-Warneckei-14-BU-2-300x209.jpg",
+        isSeeded: true
     },
     {
         name: "Easter Lily Plant", 
@@ -520,7 +576,8 @@ const startPlants = [
         water: "Water an Easter Lily Plant when the first inch or two of soil is dry. Be careful not to over water or to allow the Easter Lily Plant to sit in water. Many Easter Lily Plants come in a decorative wrap. Remove this wrap when watering so excess water can drain freely from the Easter Lily plant and allow the plant to air out before replacing the wrap. When buying an Easter Lily Plant, avoid plants that have soggy soil, since may indicate root rot.", 
         temperature: "Easter Lilies prefer moderate to cool temperatures, 60-75 during the day and 55-65 at night. Like many other flowering plants, they do not do well in drafts or placed near fireplaces, heating vents, or appliances that give off heat.", 
         poisonous: "All Lily Plants are poisonous, especially for cats. Cats become ill if they ingest any part of an Easter Lily.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/oldimages/Plant_232/634680224411543876-300x300.png"
+        image: "https://www.houseplant411.com/wp-content/uploads/oldimages/Plant_232/634680224411543876-300x300.png",
+        isSeeded: true
     },
     {
         name: "Echeveria Plant", 
@@ -529,7 +586,8 @@ const startPlants = [
         water: "How to water an echeveria: In the spring and summer, keep the soil of an echeveria plant barely moist, always erring on the dry side. Starting in late fall and throughout the winter, allow the soil to totally dry out before watering. The leaves become soft and even wrinkle a bit when the plant needs water. Water the soil and avoid getting water on the plant itself. Over watering is the main reason an echeveria plant dies.", 
         temperature: "Best temperature for an echeveria: Provide warm temperatures between 65°-80°F (18-27°C). The temperature should be 10°-15° cooler at night. During the winter, when the plant is resting, the temperature should be 10° cooler. An echeveria is not a cold hardy plant. If you put the plant outside for the summer, be sure to bring it indoors before the temperatures drops below 50°F (10°C).", 
         poisonous: "Although an echeveria is a non- poisonous plant and safe to have around cats, dogs, and small children, the sharp tips of the plant leaves can cause a painful sore.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Black-Prince-300x225.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Black-Prince-300x225.jpg",
+        isSeeded: true
     },
     {
         name: "Emerald Gem Plant", 
@@ -538,7 +596,8 @@ const startPlants = [
         water: "Watering is the most difficult part of caring for an Emerald Gem plant. When the plant is either over or under watered the bottom leaves may fall off. Over-watering is also the main reason an Emerald Gem plant gets yellow leaves. Always allow the top 50% of the soil dry out before watering. When you do water, water well enough so that it drains out the drip holes in the bottom of the pot. An Emerald Gem plant doesn't like anything cold, so use warm water and never dump extra ice cubes into the soil.", 
         temperature: "Emerald Gem plants like warm household temperatures between 65°-80°F ( 18.3°-26.7°C). Keep these plants away from air conditioners and cold drafts.", 
         poisonous: "An Emerald Gem plant or Homalomena is a slightly poisonous houseplant with a level #1 toxicity.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Homalomena-Emerald-Gem-10-300x258.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Homalomena-Emerald-Gem-10-300x258.jpg",
+        isSeeded: true
     },
     {
         name: "Emerald Gem Plant", 
@@ -547,7 +606,8 @@ const startPlants = [
         water: "Watering is the most difficult part of caring for an Emerald Gem plant. When the plant is either over or under watered the bottom leaves may fall off. Over-watering is also the main reason an Emerald Gem plant gets yellow leaves. Always allow the top 50% of the soil dry out before watering. When you do water, water well enough so that it drains out the drip holes in the bottom of the pot. An Emerald Gem plant doesn't like anything cold, so use warm water and never dump extra ice cubes into the soil.", 
         temperature: "Emerald Gem plants like warm household temperatures between 65°-80°F ( 18.3°-26.7°C). Keep these plants away from air conditioners and cold drafts.", 
         poisonous: "An Emerald Gem plant or Homalomena is a slightly poisonous houseplant with a level #1 toxicity.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/hedera-ivy-278x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/hedera-ivy-278x300.jpg",
+        isSeeded: true
     },
     {
         name: "Episcia Plant", 
@@ -556,7 +616,8 @@ const startPlants = [
         water: "The soil of an Episcia plant should be moist but not soggy at all times. If the soil is too dry, the leaves develop brown edges. In the winter, when an Episcia is not growing, allow the soil to become a little drier.", 
         temperature: "Average household temperatures above 65°F (18.3°C). Lower temperatures may cause brown leaf edges. An Episcia plant usually dies when the temperature goes below 50°F ( 10°C).", 
         poisonous: "An Episcia is a non - poisonous houseplant.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/3dbbbf563b06cbb56e4ee7a89eef8aba-196x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/3dbbbf563b06cbb56e4ee7a89eef8aba-196x300.jpg",
+        isSeeded: true
     },
     {
         name: "False Aralia", 
@@ -565,7 +626,8 @@ const startPlants = [
         water: "Keep the soil barely moist but never soggy. When you water, water well until the water comes out the drip holes in the bottom of the pot. Allow the top 1″-2″ of soil to dry out before watering again. Wilted leaves usually mean the plant is over-watered. The plant loses leaves if the soil is too wet or too dry. During the winter, when the plant is resting, allow the soil to dry out more before watering.", 
         temperature: "These plants like warm temperatures between 65°-85°F (18-29°C). If the temperature dips below 60°F (15.6°C) a false aralia may drop leaves.", 
         poisonous: "A False aralia is a non- poisonous houseplant.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Schefflera-elegantissima-10-204x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Schefflera-elegantissima-10-204x300.jpg",
+        isSeeded: true
     },
     {
         name: "Fatsia Plant", 
@@ -574,7 +636,8 @@ const startPlants = [
         water: "Allow the top 50% of the soil to dry out before watering, the leaves may even start to droop a little. Brown brittle leaves indicate under-watering. Soft leaves that turn yellow and fall off indicate over-watering.", 
         temperature: "A Fatsia likes cool temperatures, especially in the winter when it is resting. It does well in temperatures between 45°-55°F (7.2°C-12.8°C) in the winter and never above 70°F (21.1C) during the rest of the year.", 
         poisonous: "A Fatsia is non-toxic plant.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Fatsia-japonica-08-1-300x269.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Fatsia-japonica-08-1-300x269.jpg",
+        isSeeded: true
     },
     {
         name: "Ficus Alii Plant", 
@@ -583,7 +646,8 @@ const startPlants = [
         water: "Water when the top 1″ of the soil has dried out. If the plant is in a container larger than 12″ wait until the top 2″ of soil has dried out. Water deeply so that the excess water drains out the drip holes in the bottom of the pot. Immediately empty excess water and do not allow a ficus Alii to sit in water. New growth turns black and green leaves fall off from over -watering. Leaves become brown and crunchy, drop off, and may turn yellow when the plant needs water.", 
         temperature: "Unlike the ficus Benjamina, these plants are much more tolerant of temperature changes. Although a ficus Alii prefers temperatures between 60°-85° F (19°-25° C), these plants can survive in temperatures as low as 45°F (7.2°C) for a short time.", 
         poisonous: "Ficus Alii are poisonous plants with a level #2 toxicity. The sap contains latex that can cause skin irritations. Always wear gloves when pruning.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Ficus-maclellandii-Amstel-King-14-BR.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Ficus-maclellandii-Amstel-King-14-BR.jpg",
+        isSeeded: true
     },
     {
         name: "Ficus Benjamina", 
@@ -592,7 +656,8 @@ const startPlants = [
         water: "Allow the top 25% of the soil to dry out before watering. Under-watering causes leaves to turn yellow. Green leaves to fall off and new growth turns black when a ficus is over-watered. Ficus trees grow better if you follow a consistent watering schedule.", 
         temperature: "Indoor ficus trees like temperatures between 65°-85°F (18.3°-29.4°C). Keep a ficus tree away from cold drafts, air conditioners, and heaters or it will lose leaves.", 
         poisonous: "A ficus is considered a slightly poisonous houseplant with a level #1 toxicity. Many people find the sap extremely irritating if it comes in contact with their skin.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Ficus-benjamina-Midnight-10-BR-197x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Ficus-benjamina-Midnight-10-BR-197x300.jpg",
+        isSeeded: true
     },
     {
         name: "Rubber Tree Plant", 
@@ -601,7 +666,8 @@ const startPlants = [
         water: "Water requirements for a rubber tree plant: Allow the top few inches of soil (25%-30% depending upon the pot size) to dry out before watering. It is confusing, but yellow leaves can develop when the plant is either over or under- watered. Like its cousin, the ficus benjamina, green leaves fall off and new growth turns black when the plant is over- watered.", 
         temperature: "The best temperature for a rubber tree plant: 60°F - 75°F (15°C-24° C) Temperatures below 55°F (12.8°C) can damage the leaves", 
         poisonous: "Is a rubber tree plant poisonous: The sap of a rubber tree plant is toxic and can irritate the skin, eyes, and mouth. The plant should be kept away from small children, dogs and cats. Always wear gloves and a long sleeve shirt when pruning, or propagating a rubber tree plant.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Ficus-elastica-Robusta-08-BU-2-300x249.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Ficus-elastica-Robusta-08-BU-2-300x249.jpg",
+        isSeeded: true
     },
     {
         name: "Ficus Pumila", 
@@ -610,7 +676,8 @@ const startPlants = [
         water: "Keep the soil moist but never soggy. The leaves of a ficus pumila deteriorate if the soil is allowed to repeatedly dry out. Reduce water during the winter.", 
         temperature: "A ficus pumila, also called a ficus repens, does well in temperatures between 55°F-75°F ( 12.8°C-23.9°C)", 
         poisonous: "A ficus pumila has a #1 toxicity level.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Ficus-pumila-Curl-06-copy-300x227.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Ficus-pumila-Curl-06-copy-300x227.jpg",
+        isSeeded: true
     },
     {
         name: "Fiddle Leaf Fig Plant", 
@@ -619,7 +686,8 @@ const startPlants = [
         water: "A Fiddle Leaf Fig requires less water than other ficus trees. Allow the top 50% of the soil to dry out and the leaves to become soft and flexible before watering. Keep the leaves dry and water off of the large fiddle shaped leaves to prevent mold. Too much water and water on the leaves can also cause ugly brown spots on the leaves.", 
         temperature: "Fiddle Leaf Fig trees do well in temperatures between 60°-80°F (15.6°- 26.7°C). Keep all types of ficus trees away from air conditioners, cold drafts, and heating vents. Intense cold or heat causes leaf drop.", 
         poisonous: "A Fiddle Leaf Fig is considered a poisonous houseplant with a level #1 toxicity. The sap of is especially irritating.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Ficus-lyrata-10-BU-7-182x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Ficus-lyrata-10-BU-7-182x300.jpg",
+        isSeeded: true
     },
     {
         name: "Fishtail Palm", 
@@ -628,7 +696,8 @@ const startPlants = [
         water: "Water well and then allow the top 25% of the soil to dry out before watering again. Never allow the soil to totally dry out or permit a Fishtail Palm to sit in excess water. Leaf edges turn brown if there are too many chemicals in the water or the plant is under watered.", 
         temperature: "Fishtail Palms prefer temperatures between 75°-85°F (23.9°-29.4°C) during the day and 60°-70°F (15.6°-21.1°C) at night. Keep a Fishtail Palm out of cold drafts and away from air conditioners. Nighttime temperatures should never go below 45°F (7.2°C).", 
         poisonous: "The red berries on Fishtail Palm contain calcium oxalate and are poisonous to cats, dogs, and small children.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Caryota-mitis-10-1-259x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Caryota-mitis-10-1-259x300.jpg",
+        isSeeded: true
     },
     {
         name: "Fittonia", 
@@ -637,7 +706,8 @@ const startPlants = [
         water: "Try to keep the soil of a Fittonia barely moist but never soggy. During the winter, water less and keep the soil drier.", 
         temperature: "A Fittonia plant prefers warm temperatures between 70°F-80°F (21°C-26° C) and does not do well in temperatures below 60°F (15°C).", 
         poisonous: "A Fittonia (Nerve plant, Mosaic plant) is a non- poisonous plant and safe to have around small children, dogs, cats, and other pets..", 
-        image: "https://www.houseplant411.com/wp-content/uploads/fittonia-verschaffeltii-200x300-1.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/fittonia-verschaffeltii-200x300-1.jpg",
+        isSeeded: true
     },
     {
         name: "Gardenia Plant", 
@@ -646,7 +716,8 @@ const startPlants = [
         water: "Gardenia plants need to be watered very carefully. Allow the top 2-3 inches of the soil to dry out before watering. Over-watering causes root rot, brown spots on leaves, and buds not to open. Under-watering a gardenia plant results in green leaves falling off.", 
         temperature: "The correct temperature is extremely important. Ideal temperatures for gardenia plants are between 65°-70°F (18.3°-21.2°C) during the day and 55°-65°F (12.8°-18.3°C) at night. Cool night temperatures are essential for the buds to set. Gardenia buds drop off if temperatures go above 70°F (21.1°C).", 
         poisonous: "The correct temperature is extremely important. Ideal temperatures for gardenia plants are between 65°-70°F (18.3°-21.2°C) during the day and 55°-65°F (12.8°-18.3°C) at night. Cool night temperatures are essential for the buds to set. Gardenia buds drop off if temperatures go above 70°F (21.1°C).", 
-        image: "https://www.houseplant411.com/wp-content/uploads/oldimages/Plant_62/634707072357604368-222x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/oldimages/Plant_62/634707072357604368-222x300.jpg",
+        isSeeded: true
     },
     {
         name: "Geranium Plant", 
@@ -655,7 +726,8 @@ const startPlants = [
         water: "Geranium plants survive being under- watered but quickly develop root- rot when over- watered. Wait until the top 50% of the soil is dry, before watering.", 
         temperature: "Geranium plants prefer cool temperatures between 65°-70° F (18.3° 21.1°C) during the day, and around 55°F (12.8°C) at night. Avoid placing a geranium plant in cold, drafty areas or hot, dry places.", 
         poisonous: "Geranium plants are slightly poisonous with a level #1 toxicity.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/geranium.jpeg"
+        image: "https://www.houseplant411.com/wp-content/uploads/geranium.jpeg",
+        isSeeded: true
     },
     {
         name: "Goldfish Plant", 
@@ -664,7 +736,8 @@ const startPlants = [
         water: "Allow the top 25%-30% of the soil to dry out before watering. Green leaves fall off when the plant is too wet or too dry.", 
         temperature: "Goldfish plants do well in temperatures between 65°-85°F ( 18.3°-29.4°C). Intense heat burns the leaves. Try to keep goldfish plants out of drafts and away from heaters.", 
         poisonous: "A Goldfish Plant is a slightly poisonous houseplant with a level #1 toxicity.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/il_1588xN.1347893659_9giz-295x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/il_1588xN.1347893659_9giz-295x300.jpg",
+        isSeeded: true
     },
     {
         name: "Grape Ivy Plant", 
@@ -673,7 +746,8 @@ const startPlants = [
         water: "Water well and then allow the top 50% of the soil to dry out before watering again. Crispy leaves mean the plant in over-watered.", 
         temperature: "Grape Ivy plants can handle temperatures from 40°-90°F (4.4°-32.2°C), although growth slows above 80°F ( 26.7°C). The ideal temperature for a Grape Ivy Plant is 60°-80°F ( 15.6°-26.7°C).", 
         poisonous: "A Grape Ivy is a non- poisonous houseplant.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Cissus-rhombifolia-08-2-236x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Cissus-rhombifolia-08-2-236x300.jpg",
+        isSeeded: true
     },
     {
         name: "Hawaiian Schefflera “Gold Capella”", 
@@ -682,7 +756,8 @@ const startPlants = [
         water: "Water well and then allow the top 1/3 of the soil to dry out before watering again. This might be an inch or two in a small pot and 5” or more in a large pot. Green leaves fall off and new growth turns black when a Hawaiian Schefflera is over- watered. Leaves turn bright yellow when it is under-watered.", 
         temperature: "Hawaiian Scheffleras are fine with basic household temperatures. Try to keep all Schefflera plants out of cold drafts and away from heaters and air conditioners.", 
         poisonous: "Hawaiian Schefflera plants are mildly poisonous with a #1 toxicity leveland should be kept away from pets and children.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Schefflera-arboricola-Gold-Cappella-08-BU-2-295x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Schefflera-arboricola-Gold-Cappella-08-BU-2-295x300.jpg",
+        isSeeded: true
     },
     {
         name: "Hawaiian Schefflera Plant", 
@@ -691,7 +766,8 @@ const startPlants = [
         water: "Water well and then allow the top 1/3 of the soil to dry out before watering again. Seemingly healthy leaves fall off and new growth turns black when a Hawaiian schefflera is over- watered. Leaves turn bright yellow when the plant needs more water.", 
         temperature: "Hawaiian scheffleras grow well in normal household temperatures. Try to keep the plant out of cold drafts and away from heaters and air conditioners.", 
         poisonous: "Hawaiian scheffleras are considered to be slightly poisonous plants with a #1 toxicity level. Keep this plant out of reach of small children and pets.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Schefflera-arboricola-08-BU-7-300x273.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Schefflera-arboricola-08-BU-7-300x273.jpg",
+        isSeeded: true
     },
     {
         name: "Hawaiian Ti Plant", 
@@ -700,7 +776,8 @@ const startPlants = [
         water: "Proper watering is the most difficult part of taking care of a Ti plant. The soil should be moist but never soggy, and should never totally dry out. If your household water contains fluorine, chlorine, or passes through a water softener, use distilled water or allow your regular water to sit out over night before using it. Chemicals in the water damage the leaves of a Hawaiian Ti plant. Fluoride toxicity is especially harmful, causing ugly brown leaf tips.", 
         temperature: "", 
         poisonous: "", 
-        image: "https://www.houseplant411.com/wp-content/uploads/17AUG08014-226x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/17AUG08014-226x300.jpg",
+        isSeeded: true
     },
     {
         name: "Hibiscus Plant", 
@@ -709,7 +786,8 @@ const startPlants = [
         water: "During the spring and summer, when a Hibiscus is actively growing, keep the soil moist but never soggy. In the fall and winter, allow the top 2” to dry out before watering.", 
         temperature: "Hibiscus Plants do well in temperatures between 65°-85°F (18.3°-29.4°C). If the temperature goes below 40°F (4.4°C) for a prolonged period of time, the new growth is ruined.", 
         poisonous: "Hibiscus are non- poisonous plants.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Hibiscus-263x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Hibiscus-263x300.jpg",
+        isSeeded: true
     },
     {
         name: "Hoya Hindu Rope Plant", 
@@ -718,7 +796,8 @@ const startPlants = [
         water: "All hoya plants, including the Hindu Rope plant, are succulents that need very little water. Water when the soil is almost dry. During the winter, water all varieties of hoya plants even less.", 
         temperature: "Hindu Rope plants prefer daytime temperatures of 70 ° (F) or higher and nighttime temperatures between 60° and 65° (F). These temperatures encourage mature plants to flower during the late spring and summer.", 
         poisonous: "Although not considered poisonous, a Hindu Rope Plant can make dogs and cats ill if they eat a large number of leaves.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/450px-Hoya_compacta_12-225x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/450px-Hoya_compacta_12-225x300.jpg",
+        isSeeded: true
     },
     {
         name: "Hoya Plant", 
@@ -727,7 +806,8 @@ const startPlants = [
         water: "How to water a hoya plant: This is a succulent plant that stores water in its leaves. Allow the top several inches of soil to dry out before watering. Although somewhat drought resistant, they do need additional water when in bloom. Water less during fall and winter. If your water contains fluorine or chlorine, allow it to sit out 24 hours or more before using it so the chemicals can dissipate. Fluorine, chlorine, and salt are harmful to a hoya plant.", 
         temperature: "Best temperature for a hoya plant: Temperatures of 65°F - 80°F (18.3°- 26.7°C ) during the day and 60°F - 65°F (15.6°C - 18.3°C) at night are best. If the temperature is too cold or a hoya plant is sitting in a cold draft, it may drop leaves.", 
         poisonous: "Although not considered poisonous, hoya plants may make dogs and cats ill if they eat a large number of the leaves..", 
-        image: "https://www.houseplant411.com/wp-content/uploads/bcada06010e07dfcf98a0c966dd93ec6-200x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/bcada06010e07dfcf98a0c966dd93ec6-200x300.jpg",
+        isSeeded: true
     },
     {
         name: "Hoya Shooting Star Plant", 
@@ -736,7 +816,8 @@ const startPlants = [
         water: "These are Succulent Plants and need to completely dry out before being watered. Hoya Shooting Star plants do thrive on neglect, but need additional water when in bloom.", 
         temperature: "Hoya Plants can adapt to any temperature but prefer 70°-80°F ( 21.1°-26,7°C) during the day and 60°-65°F (15.5°-18.3°C) at night.", 
         poisonous: "Although not considered poisonous, Hoya Plants can make dogs and cats ill if they eat a large number of leaves.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/800px-Shooting_Stars_Hoya_multiflora_5-300x168.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/800px-Shooting_Stars_Hoya_multiflora_5-300x168.jpg",
+        isSeeded: true
     },
     {
         name: "Jade Plant", 
@@ -745,7 +826,8 @@ const startPlants = [
         water: "How to water a jade plant: The main reason a jade plant loses leaves and eventually dies is from over watering due to rot rot. Allow the soil to practically dry out and the leaves to become a little soft and flat before watering.", 
         temperature: "Best temperature for a jade plant: These plants prefer warm temperatures between 60°-70°F (15°-25°C).", 
         poisonous: "A Jade plant, and all members of the Crassula family, are toxic to dogs, cats, and other pets. The sap of the plant is an irritant should be kept away from small children.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Crassula-argentea-12-1-300x230.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Crassula-argentea-12-1-300x230.jpg",
+        isSeeded: true
     },
     {
         name: "Jasmine Plant", 
@@ -754,7 +836,8 @@ const startPlants = [
         water: "Jasmine plants loses leaves and leaves dry up from both too much and too little water. In the spring and summer, keep the soil moist but never soggy. The top 30% of the soil should dry out before watering. Soil that stays too wet, too long, damages the roots of the plant and eventually prevents the roots from absorbing water at all. When you do water, water well enough so that the water comes out the drip holes in the bottom of the pot. Do not allow the plant to sit in this excess water. During the fall and winter, keep a jasmine plant on the drier side.", 
         temperature: "Jasmine plants do well in cool rooms where the temperature is 65°-70°F (18.3°-21.1°C) and the light is very bright. If the room is too warm, a jasmine plant grows but doesn't produce any flowers. These plants, like most houseplants, do poorly when placed near heaters, hot air vents, and fireplaces.", 
         poisonous: "Jasmine plants do well in cool rooms where the temperature is 65°-70°F (18.3°-21.1°C) and the light is very bright. If the room is too warm, a jasmine plant grows but doesn't produce any flowers. These plants, like most houseplants, do poorly when placed near heaters, hot air vents, and fireplaces.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/jasmine-copy-300x275.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/jasmine-copy-300x275.jpg",
+        isSeeded: true
     },
     {
         name: "Kalanchoe Plant", 
@@ -763,7 +846,8 @@ const startPlants = [
         water: "How to water a kalanchoe plant: The succulent kalanchoe plant has plump leaves that store water for long periods of time. These plants are easily over-watered which results in root-rot. Always allow the top 50% of the soil to dry-out before watering a kalanchoe. If the soil is exceptionally dry, sit the plant in a deep saucer of water for about ten minutes; this not only prevents over-watering, but keeps the leaves dry. Wet leaves encourage plant diseases such as leaf spot or powdery mildew.", 
         temperature: "Best temperature for a kalanchoe plant: Indoor kalanchoe plants like warm temperatures between 60°-85°f (15.6°-18.3°c). Low temperatures below 40°f (4.4°c) can damage or kill a kalanchoe plant within a few hours. Keep these plants away from cold drafts and open windows during the winter.", 
         poisonous: "A Kalanchoe is a poisonous plant and is toxic to cats and dogs. They belong to a group of plants that contain naturally-occurring poisons that affect the heart. The toxins in kalanchoe plants are similar to digitalis or digoxin, a common heart medication used in both human and veterinary medicine. The severity of the injury depends upon the amount of plant eaten. All parts of the plant are considered toxic, even the water in the vase of cut kalanchoe flowers is dangerous.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/il_794xN.2350555218_dqqh-300x214.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/il_794xN.2350555218_dqqh-300x214.jpg",
+        isSeeded: true
     },
     {
         name: "Kangaroo Paw Fern", 
@@ -772,7 +856,8 @@ const startPlants = [
         water: "Water a kangaroo paw fern when the top 50% of the soil has dried out. When watering, give the plant enough water so that it drains out the bottom drip holes. I don’t recommend misting this or any other houseplant because keeping the leaves wet encourages bacterial and fungus infections.", 
         temperature: "These ferns like warm temperatures 70°-75°F (21.1°-23.9°C) in the spring, summer, and fall, but prefer cooler temperatures 60°-65°F (15.6°-18.3°C) and brighter light in the winter.", 
         poisonous: "These are non- poisonous houseplants.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/100802013614253246-300x224.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/100802013614253246-300x224.jpg",
+        isSeeded: true
     },
     {
         name: "Kentia Palm", 
@@ -781,7 +866,8 @@ const startPlants = [
         water: "Water a Kentia palm well and then allow the top 25% of soil to dry out before watering again. Over-watering, resulting in root-rot, is the major reason Kentia palms die. Kentias, like most indoor palms, are sensitive to salt, fluoride, and chlorine in the water. Allow your water to sit out over night before using it or use distilled water if your household water has a high chemical concentration. Never use water that has passed through a softener, it is too salty.", 
         temperature: "Keep the room temperature between 65 and 85 degrees for a Kentia Palm.", 
         poisonous: "A Kentia Palm is a non- poisonous plant.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Howea-forsteriana-kenta14-268x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Howea-forsteriana-kenta14-268x300.jpg",
+        isSeeded: true
     },
     {
         name: "Kimberly Queen Fern", 
@@ -790,7 +876,8 @@ const startPlants = [
         water: "How to water a Kimberly Queen fern: Allow the top 25%-35% of the soil to dry-out before watering your fern. The fronds may turn a pale green when the fern needs water. Crispy brown fronds, especially in the center of a Kimberly Queen fern, is a sign that the plant is being over-watered. Avoid using “hard“ water, water that has a lot of salt in it or has passed through a water softener, or water high in fluorine or chlorine.", 
         temperature: "The best temperature for a Kimberly Queen fern is 60°F-70F° (15.5°C-21.1°C). Keep all indoor plants away from fireplaces, heaters, and air conditioners.", 
         poisonous: "Kimberly Queen ferns are non poisonous plants and are not toxic to cats, dogs, or small children.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Nephrolepis-exaltata-08-1-300x297.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Nephrolepis-exaltata-08-1-300x297.jpg",
+        isSeeded: true
     },
     {
         name: "Lipstick Plant", 
@@ -799,7 +886,8 @@ const startPlants = [
         water: "Allow the top 25% of the soil to dry out before watering. If the leaves appear soft and shriveled, provide more water. Lipstick plants lose healthy green leaves when over-watered.", 
         temperature: "A Lipstick Plant grows well in temperatures between 75°- 85°F (24°-29°C)", 
         poisonous: "Lipstick plants are not poisonous and are safe to have around cats, dogs, and small children.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Lipstick.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Lipstick.jpg",
+        isSeeded: true
     },
     {
         name: "Lucky Bamboo Plant", 
@@ -808,7 +896,8 @@ const startPlants = [
         water: "Watering a Lucky Bamboo plant takes a little time and care. Keep the marbles and pebbles in your vase covered with water at all times. Add water to the container weekly to keep the proper level. Once a month remove the Lucky Bamboo plant from the water, rinse the roots, pebbles, and marbles with fresh water, and then put the arrangement back together. Avoid using water high in fluoride or chlorine.", 
         temperature: "Lucky Bamboo Plants do best in warm temperatures between 70°-85°( 21°-29°C)", 
         poisonous: "A Lucky Bamboo plant has a #1 toxicity level and is considered to be a mildly to moderately poisonous plant, especially to dogs and cats.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Lucky-Bamboo-200x300.jpeg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Lucky-Bamboo-200x300.jpeg",
+        isSeeded: true
     },
     {
         name: "Maidenhair Fern", 
@@ -817,7 +906,8 @@ const startPlants = [
         water: "Keep the soil moist but not soggy and never allow it to totally dry out. If the soil is too wet, a maidenhair fern develops root rot and fungal diseases.", 
         temperature: "Maidenhair ferns need consistent temperatures. They can handle warmth or cold, but prefer warm areas. Never place a maidenhair fern where the temperature fluctuates constantly.", 
         poisonous: "A maidenhair fern is a non- poisonous plant.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Adiantum-raddianum-10-copy-2-300x278.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Adiantum-raddianum-10-copy-2-300x278.jpg",
+        isSeeded: true
     },
     {
         name: "Majesty Palm", 
@@ -826,7 +916,8 @@ const startPlants = [
         water: "The soil of a Majesty Palm should be consistently moist but not soggy. Never let the soil totally dry out or allow the plant to sit in the excess water that drains out. Brown tips and fronds are telling you that the plant needs more water. Yellow leaf tips mean the plant has been over-watered.", 
         temperature: "Best temperature for a Majesty Palm is between 45°F-85°F ( 7.2°C-29.4°C). Try to keep the plant away from cold drafts or heating vents.", 
         poisonous: "A Majesty Palm is a non- poisonous plant and is not toxic to cats, dogs, or children.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Ravenea-rivularis-10-3-295x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Ravenea-rivularis-10-3-295x300.jpg",
+        isSeeded: true
     },
     {
         name: "Golden Pothos", 
@@ -835,7 +926,8 @@ const startPlants = [
         water: "Marble queen pothos like their soil to be kept on the dry side. During the spring and summer, water well and then allow the top 50% of the soil to dry out before watering again. During the fall and winter, let the soil get almost totally dry before watering. If in doubt, wait for the leaves to become soft and droop a little before you water. Black leaves indicate over watering while bright yellow leaves mean the plant has gotten a bit too dry before you watered.", 
         temperature: "The best temperature is between 65°F-85°F (18.3°C-29.4°C) The leaves may be damaged if the temperature drops below 55°F ( 12.8°C).", 
         poisonous: "A marble queen pothos is very poisonous with a #2 toxicity level. Pets that eat stems or leaves of the plant may exhibit vomiting, pawing at the mouth, lack of appetite, and drooling.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Epipremnum-aureum-Marble-Queen-08-2.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Epipremnum-aureum-Marble-Queen-08-2.jpg",
+        isSeeded: true
     },
     {
         name: "Mimosa Pudica Plant", 
@@ -844,7 +936,8 @@ const startPlants = [
         water: "Keep the soil of a Sensitive Plant moist but never soggy. A Mimosa Pudica requires less water during the winter. Sensitive Plants thrive on rain water if it is not acidic. A Sensitive Plant needs less water in the winter months.", 
         temperature: "Sensitive Plants like temperatures between 60°-85°F (16°-29°C).", 
         poisonous: "Mimosa Pudica or Sensitive Plant has a level #4 toxicity and is a very poisonous houseplant. Always wash your hands with soapy water after touching the leaves of a Mimosa pudica.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/800px-Mimosapudica-300x225.png"
+        image: "https://www.houseplant411.com/wp-content/uploads/800px-Mimosapudica-300x225.png",
+        isSeeded: true
     },
     {
         name: "Moses in the Cradle Plant", 
@@ -853,7 +946,8 @@ const startPlants = [
         water: "Before watering a Moses in the Cradle plant, allow the top few inches of soil to dry out. Keep the soil drier during the winter months, when all houseplants, not just a Moses in the Cradle plant, are not actively growing.", 
         temperature: "The ideal temperature for a Moses in the Cradle plant is 60°-85° F (16°-19°C) during the day and about 10° cooler at night.", 
         poisonous: "A Moses in the Cradle plant is a poisonous plants with a #3 toxicity level. The sap can causes severe pain if it gets in the mouth or eyes and skin irritations. A Moses in the Cradle plant is toxic to cats, dogs, and small children so please keep this colorful plant out of reach.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/il_1588xN.2903478742_lzsp-300x200.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/il_1588xN.2903478742_lzsp-300x200.jpg",
+        isSeeded: true
     },
     {
         name: "Natal Mahogany Plant", 
@@ -862,7 +956,8 @@ const startPlants = [
         water: "Natal Mahogany plants thrive on water and are very forgiving when you over-water. These plants prefer their soil to be consistently moist, but not soggy, at all times. Place a saucer under a Natal Mahogany plant to hold extra water. Yellow leaves usually indicate that the plant needs more water.", 
         temperature:"A Natal Mahogany can survive temperatures as low as 45°F (7.2°C). In temperatures above 80°F (26.7°C) check the soil frequently to be sure the plant does not dry out", 
         poisonous: "The outer coating of the seeds of a Natal Mahogany plant are poisonous", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Trichilia-dregei-10-3.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Trichilia-dregei-10-3.jpg",
+        isSeeded: true
     },
     {
         name: "Norfolk Pine", 
@@ -871,7 +966,8 @@ const startPlants = [
         water: "How to water a Norfolk Pine: Keep the soil of a Norfolk Island Pine barely moist at all times. Yellow needles indicate that the soil is either too wet or too dry. If the soil of a Norfolk Pine completely dries out, entire fronds turn gray, brittle, and fall off.", 
         temperature: "Best temperature for a Norfolk Pine: A Norfolk Pine prefers cool temperatures between 60-70°F (15.6°-21.1°C) but will survive temperatures as low as 40°F (4.4°C) for brief time. Keep the plant away from cold drafts, air conditioning vents, and heating vents.", 
         poisonous: "Although not considered poisonous, if the needles of a Norfolk Pine are ingested by pets or children, they cause severe stomach irritation. I'd recommend keeping this plant far away from children and pets especially around Christmas when things are hectic and accidents happen.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/il_1588xN.2109340810_osrd-1-300x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/il_1588xN.2109340810_osrd-1-300x300.jpg",
+        isSeeded: true
     },
     {
         name: "Orchid - Cymbidium Orchid Plant", 
@@ -880,7 +976,8 @@ const startPlants = [
         water: "The easiest way to kill Cymbidium orchid plants is by over-watering. When watering, thoroughly drench the plant, then let the excess water drain out the bottom drip holes. Allow the top 50% of the soil to dry out before watering again. You can prevent over and under-watering by checking the roots, they should be whitish- green and plump. Follow these few watering tips to prevent watering problems. Never allow orchid plants sit in water. Do not get water on the leaves or flowers. Never use water that has passed through a softener. Soil type, temperature, time of year, humidity, and pot size all influence how much water orchid plants need. The soil dries out faster in winter because of the heat and low humidity in homes and offices. Too much or too little water is the main cause of Bud Blast, orchid buds dying before they open.", 
         temperature: "Temperature is another important factor if you want indoor Cymbidium orchids to bloom. Ideal temperatures for the flower buds to set is 65°F-70°F (18.3°C-21.1°C) during the day and 10°-15° cooler at night. Temperature is especially important during the fall when orchid flowers are just starting to develop. Cymbidium plants can handle temperatures as low as 45°F (7° C), but do not do well in temperatures above 80° F (26.7°C). The higher the temperature, the more important it is to have good air movement around the plant.", 
         poisonous: "Cymbidium orchid plants are non- poisonous.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/oldimages/Plant_191/634643370823529821-199x300.png"
+        image: "https://www.houseplant411.com/wp-content/uploads/oldimages/Plant_191/634643370823529821-199x300.png",
+        isSeeded: true
     },
     {
         name: "Orchid - Phalaenopsis Orchid Plant", 
@@ -889,7 +986,8 @@ const startPlants = [
         water: "The easiest way to kill any Orchid Plant is by over-watering. Always allow the top 50% of the potting compost to dry out before watering. Check the roots of an Orchid Plant monthly to be sure they are staying whitish green and plump. Set the plant in a deep saucer of water for about 30 minutes so it can absorb water through the drip holes in the bottom on the pot. Use tepid water that has not passed through a softener (too salty). If your household water has a lot of chemicals in it, allow the water to sit out over night before using it. Type of soil, temperature, time of year, humidity, and pot size all influence an orchid plant's watering needs. Orchids dry out a little faster in the winter because of the heat in your home and low humidity.", 
         temperature: "Orchid plants do well when the temperature is 65°-80°F (18°-26° C) during the day and 15° cooler at night. In the fall, cool night temperatures help the flower spikes develop. Once the orchid buds appear try to keep the temperature constant or the buds may fall off.", 
         poisonous: "Allvarietiesof orchid plants are non poisonous and safe to have around cat, dogs, and other pets.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Another_Phaleonopsis_2252750743-300x200.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Another_Phaleonopsis_2252750743-300x200.jpg",
+        isSeeded: true
     },
     {
         name: "Ornamental Pepper Plant", 
@@ -898,7 +996,8 @@ const startPlants = [
         water: "Keep the soil barely moist and water the surface of the soil evenly. Water well, until it comes out the drip holes in the bottom of the pot; then allow the top 20% of the soil to dry out before watering again. Do not allow the plant to sit in the excess water.", 
         temperature: "These plants like warm temperatures, above 75°F (23.9C) if possible. The warmer the temperature, the faster the plant grows and the fruits develop.", 
         poisonous: "An Ornamental Pepper plant is a non- poisonous plant", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Unknown-25.jpeg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Unknown-25.jpeg",
+        isSeeded: true
     },
     {
         name: "Money Tree Plant", 
@@ -907,7 +1006,8 @@ const startPlants = [
         water: "Water well and then allow the top 1- 2“ of soil to dry out before watering again. A Pachira aquatica requires less water during the winter months when resting. Be sure to use a container with bottom drip holes to prevent over- watering and root rot. It's important to water the soil evenly.", 
         temperature: "This plant prefers temperatures between 65°-75°F (16°-24° C.)", 
         poisonous: "Money Tree plants are non- poisonous houseplants.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/d6762d36543f506491f1178dc5823fae.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/d6762d36543f506491f1178dc5823fae.jpg",
+        isSeeded: true
     },
     {
         name: "Parlor Palm", 
@@ -916,7 +1016,8 @@ const startPlants = [
         water: "How to water a Parlor Palm: Water well, and then allow the top 50% of the soil to dry out before watering again. The roots of a parlor palm should never totally dry out. Water less during the winter when the plant is not actively growing. Brown leaf tips often indicate over watering, while yellow fronds tell you a Parlor Palm needs a bit more water.", 
         temperature: "Best temperature for a Parlor Palm: Try to provides temperatures between 62°-82° F (16.7°-27.8°C). A Parlor Palm can briefly handle temperatures as low as 50°F (10°C) but will die in temperatures lower than 40°F (4.4°C). Avoid cold drafts.", 
         poisonous: "A Parlor Palm in a non- poisonous houseplant and is not toxic to cats, dogs, or children.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Chamaedorea-elegans-14-256x232.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Chamaedorea-elegans-14-256x232.jpg",
+        isSeeded: true
     },
     {
         name: "Peace Lily Plant", 
@@ -925,7 +1026,8 @@ const startPlants = [
         water: "How to water a Peace Lily: Allow the top 50% of the soil to dry out before watering. If the leaves severely droop, yellow leaves develop once a Peace Lily is watered. Leaves turn a blackish brown from over- watering. Too much water, resulting in root rot, is the main reason a Peace Lily dies.", 
         temperature: "Best temperature for a Peace Lily: 65°-85°F (18.3°-29.4°C).", 
         poisonous: "A Peace Lily is a poisonous plant and dangerous to have near cats, dogs, and small children. These plants have a #2 Toxicity level.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Spathiphyllum-Ceres-06-1-256x224.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Spathiphyllum-Ceres-06-1-256x224.jpg",
+        isSeeded: true
         },
         {
         name: "Pencil Cactus Plant", 
@@ -934,7 +1036,8 @@ const startPlants = [
         water: "During the spring and summer allow the top 50% of the soil to dry out before watering. In the fall & winter water once a month. Pencil Cactus are very drought resistant, so when in doubt, do not water.", 
         temperature: "Likes warm temperatures between 65°-70°F (18.3°-21.1°C) during most of the year. In the winter, when resting, a Pencil Cactus prefers cooler temperatures around 50°F (10°C).", 
         poisonous: "Pencil Cactus are very poisonous plants with a #4 toxicity level. The stems contain an irritating sap-like substance that oozes out of any cut or break in the stem. Not only should you wear gloves when working with a Pencil cactus , but you should wash your hands thoroughly with soap after removing the gloves. You don’t want to risk getting sap in your eyes or mouth.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Pencil-Cactus.jpeg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Pencil-Cactus.jpeg",
+        isSeeded: true
     },
     {
         name: "Peperomia Plant", 
@@ -943,7 +1046,8 @@ const startPlants = [
         water: "Allow the top 50% of the soil to dry out before you water. Over-watering, resulting in root-rot, is the main cause of serious peperomia plant problems. It’s best to water these plants from the bottom. This technique keeps the leaves dry and helps prevent plant diseases. The thick leaves of peperomia plants hold water and allow the plant to withstand long periods without moisture.", 
         temperature: "Warm temperatures between 60°-80°F (15.6°-26.7°C) are best. Temperatures below 50°-55° F (10°-12.8°C) and cold drafts from windows and doors damage peperomia plant leaves.", 
         poisonous: "A Peperomia is an non- poisonous plant.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Peperomia-obtusifolia-06-3-251x266.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Peperomia-obtusifolia-06-3-251x266.jpg",
+        isSeeded: true
     },  
     {
         name: "Peperomia Plant – Caperata “Emerald Ripple”", 
@@ -952,7 +1056,8 @@ const startPlants = [
         water: "Allow the top 50% of the soil in a peperomia plant to dry out before watering. Over-watering, causing yellow leaves and soggy stems, is the main cause of serious peperomia problems. Root-rot, which causes the plant to die, is the direct result of over–watering. Peperomia plants do well when watered from the bottom. This technique keeps water off of the leaves and helps prevent plant diseases. The thick leaves of a peperomia hold water and allow it to withstand long periods without moisture.", 
         temperature: "Warm temperatures between 60°-80°F (15.5°-26.7°C) are best. Temperatures below 50°-55°F (10°-12.8°C) and cold drafts from windows and doors damage the leaves.", 
         poisonous: "Peperomia plants are non- poisonous plants", 
-        image: "https://www.houseplant411.com/wp-content/uploads/1200px-Peperomia_caperata_1-OB9-256x192.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/1200px-Peperomia_caperata_1-OB9-256x192.jpg",
+        isSeeded: true
     },  
     {
         name: "Persian Shield Plant", 
@@ -961,7 +1066,8 @@ const startPlants = [
         water: "Keep the soil barely moist, water when the top few inches of soil are dry. Spotting on the leaves occurs if cold water splashes on them. Water less in the fall and winter when the plant is not actively growing.", 
         temperature: "These plants like to be warm. Place them in an area where the temperature is always above 60°F (15.6°C).", 
         poisonous: "A Persian Shield plant is slightly poisonous with a #1 toxicity level", 
-        image: "https://www.houseplant411.com/wp-content/uploads/la_strobilanthes_dyeriana_e_una_splendida_acantacea_delle_umide_foreste_del_myanmar-256x262.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/la_strobilanthes_dyeriana_e_una_splendida_acantacea_delle_umide_foreste_del_myanmar-256x262.jpg",
+        isSeeded: true
     },
     {
         name: "Philodendron Congo Plant", 
@@ -970,7 +1076,8 @@ const startPlants = [
         water: "Always allow the top 50% of the soil to dry out before watering a Philodendron. When watering, cover the entire surface to prevent leaf problems because of dry soil areas.", 
         temperature: "Philodendron Congos grow well in normal household temperatures between 70°-85°F (21.1° 29.4°C). Keep these plants away from cold drafts and air conditioners.", 
         poisonous: "A Philodendron Congo is a poisonous houseplant with a #2 Toxicity level.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Philodendron-Tatei-Congo-08-4-256x160.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Philodendron-Tatei-Congo-08-4-256x160.jpg",
+        isSeeded: true
     },
     {
         name: "Philodendron Heartleaf", 
@@ -979,7 +1086,8 @@ const startPlants = [
         water: "How to water a Heartleaf Philodendron: Water well and then allow the top 50% of the soil to dry out before watering again. Yellow leaves on a heartleaf philodendron indicate over-watering and brown leaves mean the plant needs more water.", 
         temperature: "Best temperature for a Heartleaf Philodendron: Warm temperatures of 70°F - 80ºF (24°C-27ºC) during the day, and night time temperatures above 55º F (13ºC).", 
         poisonous: "Best temperature for a Heartleaf Philodendron: Warm temperatures of 70°F - 80ºF (24°C-27ºC) during the day, and night time temperatures above 55º F (13ºC).", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Philodendron-scandens-oxycardium-08-1-300x260-2-256x222.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Philodendron-scandens-oxycardium-08-1-300x260-2-256x222.jpg",
+        isSeeded: true
         },
         {
         name: "Philodendron Imperial Red", 
@@ -988,7 +1096,8 @@ const startPlants = [
         water: "How to water a Philodendron Imperial Red: Allow the top 50% of the soil to dry out before watering. The soil needs to dry out more during the winter when the plant is resting.", 
         temperature: "Best temperature for a Philodendron Imperial Red: Provide warm temperatures between 70°-85°F ( 21.1°-29.4°C). Keep the temperature above 55°F (12.8°C) during the winter.", 
         poisonous: "Is a Philodendron Imperial Red poisonous: All philodendron plants, including the Imperial Red, contain calcium oxalate are very toxic plants with a #2 toxicity level. Learn more about poisonous Houseplant Toxicity levels in the Glossary of the website.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Philodendron-Imperial-Red-06-256x226.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Philodendron-Imperial-Red-06-256x226.jpg",
+        isSeeded: true
     },
     {
         name: "Philodendron Micans", 
@@ -997,7 +1106,8 @@ const startPlants = [
         water: "How to water a philodendron micans: Like many indoor houseplants, over watering a philodendron micans and not allowing the soil to dry out a bit, is the fastest way to kill the plant. Allow the top 1/3 of the soil to dry out before watering. When you do water, water well enough so that the water drains out the drip holes in the bottom of the pot. Never allow the plant sit in the excess water. During the winter, when the plant is resting, the soil needs to dry out even more. Always remember, the soil at the bottom of the plant container is wetter than the soil at the top.", 
         temperature: "Best temperature for a philodendron micans: A philodendron micans likes warm temperatures between 65°-75ºF (18.3°-23.9ºC) during the day and above 55º F (12.8ºC) at night.", 
         poisonous: "Is a philodendron micans a poisonous plant: All philodendron plants, including the philodendron micans, contain calcium oxalate crystals and are toxic to children, cats, dogs, and other pets.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Philodendron-micans-06-copy.jpeg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Philodendron-micans-06-copy.jpeg",
+        isSeeded: true
     },
     {
         name: "Philodendron Selloum", 
@@ -1006,7 +1116,8 @@ const startPlants = [
         water: "How to water a philodendron selloum: Unlike other philodendrons, the selloum likes moist but not soggy soil. During the winter, water less, keeping the soil barely moist.", 
         temperature: "Best temperature for a philodendron selloum: Warm temperatures above 55°F (12.8°C). Keep these plants away from cold drafts and open doors during the winter.", 
         poisonous: "Is a philodendron selloum poisonous to cats, dogs, and small children: This is is a poisonous houseplant with a level #3 toxicity. All philodendron varieties contain calcium oxalate crystals. Eating any part of the plant may cause the following symptoms: pain in the mouth, drooling (dogs & cats), and vomiting. If swelling of the lips, tongue, and airway occurs, it becomes difficult to breathe or swallow.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Philodendron-selloum-10-3-256x172.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Philodendron-selloum-10-3-256x172.jpg",
+        isSeeded: true
     },
     {
         name: "Philodendron Xanadu Plant", 
@@ -1015,7 +1126,8 @@ const startPlants = [
         water: "Water a Xanadu thoroughly until the water drains out the drip holes in the bottom of the pot, and then allow the top 50% of the soil to dry out before watering again. Leaves turn yellow if the soil stays too wet. A Xanadu grows more slowly in the winter and requires less water.", 
         temperature: "Daytime temperatures 75° to 80°F ( 23.9°-26.7°C); nighttime temperatures 65°- 70° F (18.3°-21.1°C)", 
         poisonous: "A Philodendron Xanadu is a poisonous plant with a level #1 toxicity. Philodendrons are especially poisonous to dogs and cats.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Philodendron-Xanadu-10-256x188.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Philodendron-Xanadu-10-256x188.jpg",
+        isSeeded: true
     },
     {
         name: "Pilea Plant", 
@@ -1024,7 +1136,8 @@ const startPlants = [
         water: "How to water a pilea plant: Keep the soil of a pilea plant slightly moist, but not soggy at all times. During the cooler months or when your pilea plant is not producing new leaves, allow the top 2-3 inches of soil to dry out before watering.", 
         temperature: "Best temperature for a pilea plant: This plant likes to be warm all of the time. The best temperature for a pilea plant is 60°-75°F ( 18.3°-23.9°C).", 
         poisonous: "Is a pilea plant poisonous: A pilea plant is a non- poisonous plant and safe to have around children, cats, dogs, and other pets.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/800px-Pilea_cadierei_flower-256x178.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/800px-Pilea_cadierei_flower-256x178.jpg",
+        isSeeded: true
     },
     {
         name: "Podocarpus Plant", 
@@ -1033,7 +1146,8 @@ const startPlants = [
         water: "Keep the soil moist but not soggy; allow the top two inches to dry out before watering. Brown leaf tips or gray needles indicate over- watering.", 
         temperature: "Podocarpus prefer cool temperatures between 50°-75°F (10°-23.9°C).", 
         poisonous: "A Podocarpus has a level #1 toxicity if eaten. However, various parts of the plant, especially the seeds within the berries are very harmful to dogs, cats, and horses. This plant should be kept away from small children and animals.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Podocarpus-gracilior-14-PY-1.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Podocarpus-gracilior-14-PY-1.jpg",
+        isSeeded: true
     },
     {
         name: "Poinsettia Plant", 
@@ -1042,7 +1156,8 @@ const startPlants = [
         water: "How to water a poinsettia plant: A poinsettia plant is a member of the Euphorbia family and like been theory side. Allow the top 50% of the soil to dry out before you water to prevent root rot. Over-watering a poinsettia causes green leaves to fall off, leaving bare stems topped by a few colorful bracts. Severe under-watering, in which a poinsettia plant badly droops, results in both green and colored leaves dropping off. Avoid getting the leaves of a poinsettia plant wet when watering; water drops cause unsightly white marks on the flowers and leaves.", 
         temperature: "Best temperature for a poinsettia plant: Temperature is a very important factor in poinsettia plant care. A poinsettia plants lasts longer and look better when the temperature is between 65°-70°F (18.3°-21.1°C) during the day and around 60°F (15.6°C) at night. Temperatures that are too hot or too cold damage leaves and may cause leaf drop. Keep a poinsettia plant away from drafty doors and windows, fireplaces, heaters, and the tops of appliances that give off heat.", 
         poisonous: "A poinsettia plant is not toxic to small children, cats, or dogs. Despite all the rumors, the plant causes minor discomfort if a few leaves are eaten. If quite a bit of the plant is ingested, some vomiting, drooling in pets, or sometimes diarrhea may be occur. It's the white, milky sap of a poinsettia plant that can cause redness, swelling, and itchiness if it gets on the skin, especially if someone is allergic to latex.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/0cea2ee2-8f95-452a-98de-70b839eda458-244x266.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/0cea2ee2-8f95-452a-98de-70b839eda458-244x266.jpg",
+        isSeeded: true
     },
     {
         name: "Polka Dot Plant", 
@@ -1054,7 +1169,8 @@ const startPlants = [
         water: "Water a polka dot plant well and then allow the top 25% of the soil to dry out before watering again. Over-watering causes root rot. If the soil gets too dry and the leaves droop, a polka dot plant quickly perks up once it's watered.", 
         temperature: "Warm temperatures around 75°F (23.9°C) are necessary for a polk dot plant to thrive indoors.", 
         poisonous: "A polka dot plant is a non- poisonous houseplant and safe to have around cats, dogs, and small children.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/640px-Starr_080117-1693_Hypoestes_phyllostachya.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/640px-Starr_080117-1693_Hypoestes_phyllostachya.jpg",
+        isSeeded: true
     },
     {
         name: "Ponytail Palm Plant", 
@@ -1063,7 +1179,8 @@ const startPlants = [
         water: "Over- watering is about the only way to kill a Ponytail Palm. Allow the top 50-70% of the soil to dry out before watering. During the warm months you may need to water every 7-14 days; in winter, only every three or four weeks. A Ponytail Palm stores water in its base and is very drought resistant. These plants can get brown leaf dips when they are over or under watered. However, when in doubt, do not water!", 
         temperature: "Ponytail Palms like warm temperatures above 60°F (15.6°C). They can survive lower temperatures, but don't grow as well. These plants, unlike other exotic tropical houseplants, like dry hot heat.", 
         poisonous: "A Ponytail Palm is a non- poisonous plant.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Pont-Tail-Palm.jpeg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Pont-Tail-Palm.jpeg",
+        isSeeded: true
     },
     {
         name: "Pothos Plant", 
@@ -1072,7 +1189,8 @@ const startPlants = [
         water: "How to water a Pothos plant: Water well and then allow the top 50% of the soil to dry out before watering again. Over-watering is the main reason a pothos plant dies. Bright yellow leaves indicate that the soil has dried out a bit too much before you watered it. Leaves turn pale yellow and get black marks when a pothos plant is over- watered. Over watering a pothos plant also causes new growth to turn black.", 
         temperature: "Best temperature for a Pothos plant: grows well in temperatures between 55°F - 80°F (12.8°C - 26.7°C). If temperatures drop below 45°F (7.2°C), a pothos plant stops growing and the leaves turn black.", 
         poisonous: "Pothos plants are poisonous plants with a level #2 toxicity, and is toxic to dogs, cats, and small children.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Epipremnum-aureum-06-6-256x180.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Epipremnum-aureum-06-6-256x180.jpg",
+        isSeeded: true
     },
     {
         name: "Prayer Plant", 
@@ -1081,7 +1199,8 @@ const startPlants = [
         water: "How much water for a prayer plant: Keep the soil barely moist but never soggy at all times. Unlike most houseplants, a prayer plant does not like to have the soil dry out before you water. Water less in the winter when the plant is resting.", 
         temperature: "Best temperature for a prayer plant: Provide warm temperatures between 60°-80°F (15.6°-26.7°C). Low temperatures and cold drafts damage the leaves.", 
         poisonous: "A prayer plant is a non- poisonous houseplant and is safe to have around cats, dogs, and small children.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Maranta-leuconeura-kerchoveana-06-2-256x184.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Maranta-leuconeura-kerchoveana-06-2-256x184.jpg",
+        isSeeded: true
     },
     {
         name: "Purple Velvet Plant", 
@@ -1090,7 +1209,8 @@ const startPlants = [
         water: "Always allow the top 25% of the soil to dry out before watering. A Purple Velvet plant has fragile roots and is very susceptible to root rot, so be very careful not to over-water. Reduce your watering in the spring and fall when a Purple Velvet Plant is not actively growing. Try to keep the foliage dry and do not mist this plant.", 
         temperature: "Temperatures between 65°-85°F (18.3°-29.4°C) are best.", 
         poisonous: "There are different opinions as to whether or not this plant is a poisonous houseplant. While it is often listed as a non- poisonous plant, I would recommend that it still be kept away from pets and small children. It has also been noted that some people have an allergic reaction from just touching the plant.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/5adfc3-768x1024.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/5adfc3-768x1024.jpg",
+        isSeeded: true
     },
     {
         name: "Purple Waffle Plant", 
@@ -1099,7 +1219,8 @@ const startPlants = [
         water: "Keep the soil barely moist but not soggy, at all times. Water less during the winter when the plant is growing slowly.", 
         temperature: "Waffle plants likes warm temperatures between 55°F-75°F (12.8°C–23.9°C). Temperatures below 50°F (10°C) may damage the leaves.", 
         poisonous: "Non- poisonous to humans and pets", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Waffle-Plant.jpeg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Waffle-Plant.jpeg",
+        isSeeded: true
     },
     {
         name: "Pygmy Date Palm", 
@@ -1108,7 +1229,8 @@ const startPlants = [
         water: "Keep the soil of a Pygmy Date Palm moist but never soggy during most of the year. In winter, allow the soil to dry out before watering. The fronds of a Dwarf Date Palm turn brown from too much water or from hard water.", 
         temperature: "The ideal temperature for Pygmy Date Palms is 50-75°F (16-24°C). A Phoenix Roebelenii does not do well when temperature go below 50°F (10°C).", 
         poisonous: "Phoenix Roebelenii are non- poisonous houseplants.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Phoenix-roebelenii-17-249x235.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Phoenix-roebelenii-17-249x235.jpg",
+        isSeeded: true
     },
     {
         name: "Rabbit’s Foot Fern", 
@@ -1117,7 +1239,8 @@ const startPlants = [
         water: "How to water a Rabbit's Foot fern: This fern likes to be a little drier than most other indoor ferns. Wait until the top 25% of the soil has dried out before watering.", 
         temperature: "What's the best temperature for a Rabbit's Foot fern: Temperatures between 65°-75°F (18.3°- 23.9°C) during the day and 10° cooler at night help a Rabbit's Foot fern grow better.", 
         poisonous: "A Rabbit’s Foot Fern is a non- poisonous houseplant.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Davallia-trichomannoides-06-copy-1-256x190.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Davallia-trichomannoides-06-copy-1-256x190.jpg",
+        isSeeded: true
     },
     {
         name: "Rhapis Palm", 
@@ -1126,7 +1249,8 @@ const startPlants = [
         water: "Allow the top 50% of the soil of a Rhapis Palm to dry out before watering. A Rhapis, like many palms, is sensitive to chlorine, fluoride, and boron in the water. If these chemicals are present allow the water to sit for 24-48 hours before using it or use distilled water. Consistent over-watering causes root rot.", 
         temperature: "The Rhapis Palm can adapt to temperatures between 50°and 80° F. (10°-26.7°C) so it is well-suited to any home or office.", 
         poisonous: "Lady Palms are non-toxic plants.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Rhapis-excelsa-10-261x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Rhapis-excelsa-10-261x300.jpg",
+        isSeeded: true
     },
     {
         name: "Rose Bush Plant", 
@@ -1135,7 +1259,8 @@ const startPlants = [
         water: "A miniature rose bush requires a great deal of water, especially when it is flowering. Since these plants are usually purchased in small pots, be sure to check the soil every few days. Allow the top 1” (2.5cm) of soil to dry out before watering. During the winter, when a miniature rose bush plant is resting, keep the soil barely moist. Be careful not to get water on the leaves; wet leaves often cause a fungus called Black Spot to develop.", 
         temperature: "Miniature rose bush plants do well in temperatures between 60°-75°F (16°-24°C). These plants are very susceptible to frost damage.", 
         poisonous: "Miniature rose bush plants are non- poisonous plants.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/82f981f441dff5e83462c48c41935aae-267x300.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/82f981f441dff5e83462c48c41935aae-267x300.jpg",
+        isSeeded: true
     },
     {
         name: "Sago Palm", 
@@ -1144,7 +1269,8 @@ const startPlants = [
         water: "How to water a Sago palm: A Sago palm is fairly drought resistant plant. It is more harmful to the plant to over water and cause root rot than to under water. Allow the top 75% of the soil to dry out before thoroughly watering a Sago Palm. Be sure the water comes out the drip holes in the bottom of the pot, but do not allow the plant to sit in the excess water. Water sparingly in the winter when there is less light and cooler temperatures. Be careful to never get water in the crown of a Sago palm, this can cause crown rot disease and the eventual death of the plant. Sago palms should never be allowed to totally dry out.", 
         temperature: "Best temperature for a Sago palm: Sago palms prefer warm temperatures between 60°-75° F (16°-24° C). They still survive in temperatures as low 45° F (7.2°C) but do not grow at all. Avoid putting a Sago palm near heaters, air conditioners, or cold drafts. These plants do not like severe temperature fluctuations.", 
         poisonous: "Is a Sago palm a poisonous plant: A Sago palm is a very poisonous houseplant with a #4 level toxicity. All parts are poisonous, especially the seeds. Keep a Sago palm out of the reach of children, dogs, and especially cats who love to play with the fronds of the plant.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Cycas-revoluta-17-4-256x200.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Cycas-revoluta-17-4-256x200.jpg",
+        isSeeded: true
     },
     {
         name: "Sansevieria Plant", 
@@ -1153,7 +1279,8 @@ const startPlants = [
         water: "How to water a sansevieria plant: Over-watering is the main reason a sansevieria plant dies. Allow the soil to practically dry out before you water. During the winter, in a low light area, a sansevieria plant may need water only once every month or two.", 
         temperature: "Best temperature for a sansevieria plant: Sansevierias grow well in warm temperatures between 60°F (15.5°C) and 85° F (29°C)", 
         poisonous: "Is a sansevieria plant poisonous: A sansevieria is a mildly poisonous plant with a #1 level toxicity. It is toxic to dogs, cats, and small children.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Sansevieria-trifasciata-Laurentii-14-copy.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Sansevieria-trifasciata-Laurentii-14-copy.jpg",
+        isSeeded: true
     },
     {
         name: "Schefflera Plant", 
@@ -1162,7 +1289,8 @@ const startPlants = [
         water: "Allow the top 25-30% of the soil to dry out before watering. Green leaves drop off and new growth turns black when a Schefflera is over-watered. Yellow leaves indicate the plant needs more water.", 
         temperature: "A Schefflera prefers temperatures between 65°-80°F ( 18.3°-26.7°C). They do not do well in temperatures below 55°F (12.8°C). Keep the plant away from cold drafts and heaters.", 
         poisonous: "A Schefflera plant is a slightly poisonous houseplant with a level #1 toxicity. It is toxic to cats, dogs, and small children.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Schefflera-actinophylla-Amate-10-4-239x266.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Schefflera-actinophylla-Amate-10-4-239x266.jpg",
+        isSeeded: true
     },
     {
         name: "Selaginella Plant", 
@@ -1171,7 +1299,8 @@ const startPlants = [
         water: "Keep the soil moist but never soggy and avoid using cold water. A Selaginella plant becomes totally dormant and the leaves roll into tight little brown balls when there is no moisture. Once the Selaginella is watered, it turns green and starts to grow again.", 
         temperature: "Best temperature 50°-75°F (10°-24°C ). Some types of Selaginella plants can handle temperatures as low as 40°F (4.4°C)", 
         poisonous: "A Selaginella is a non-poisonous houseplant.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Selaginella-sp2-256x215.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Selaginella-sp2-256x215.jpg",
+        isSeeded: true
     },
     {
         name: "Shamrock Plant", 
@@ -1180,7 +1309,8 @@ const startPlants = [
         water: "Keep the soil barely moist but never soggy and allow the top 2” of soil to dry out before watering. It’s best to water a shamrock plant from the bottom so the thin fragile stems of the plant don’t get water logged and the soil stays loose.", 
         temperature: "Shamrock plants grow best in cool temperatures between 60°-70°F (15.6°-21.1°C) during the day and 55°-65°F (12.8°-18.3°C) at night.", 
         poisonous: "Shamrock plants are slightly poisonous if eaten in very large quantities with a #1 toxicity level.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/51eGtvCekML._AC_-256x256.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/51eGtvCekML._AC_-256x256.jpg",
+        isSeeded: true
     },
     {
         name: "Spider Plant", 
@@ -1189,7 +1319,8 @@ const startPlants = [
         water: "How to water spider plant: How you water is a very important part of how to care for a spider plant. Allow the top 50% of the soil to dry out before you water. A good way to tell when the plant needs water is to look at the leaves. The green color starts to fade when the soil is dry. Using water with a high salt or chemical content (fluorine or chlorine) causes brown leaf tips. Never use water that had passed through a water softener; it is much too salty.", 
         temperature: "Best temperature for a spider plant: These plants grows best when the temperature is between 65°- 75°F.  (18°-23° C. ). They will survive in temperatures as low as low as 45°F (7.4°C) without damage, but the plant will not grow very much.", 
         poisonous: "A spider plant is not toxic to dogs, cats, and other pets and is not poisonous to small children.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Chlorophytum-comosum-08-8-256x171.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Chlorophytum-comosum-08-8-256x171.jpg",
+        isSeeded: true
     },
     {
         name: "Split Leaf Philodendron Plant", 
@@ -1198,7 +1329,8 @@ const startPlants = [
         water: "Water a Split leaf philodendron well, until the water drains out the drip holes in the bottom of the pot. Allow the top 25-30% of the soil to dry out before watering again. Keep the soil of a Split leaf philodendron damp but never soggy. Water droplets or perspiration on the leaves of a Split leaf philodendron indicate over-watering; brown leaf edges indicate under- watering.", 
         temperature: "A Split leaf philodendron plant prefers warm temperatures and doesn't do well in temperatures below 50°F (10°C) .", 
         poisonous: "A Split leaf philodendron is very poisonous houseplants with a #2 toxicity level.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/philodendron-768x1024.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/philodendron-768x1024.jpg",
+        isSeeded: true
     },
     {
         name: "Staghorn Fern", 
@@ -1208,7 +1340,8 @@ const startPlants = [
         water: "How you water a staghorn fern determines if the plant lives or dies! Check the center of a Staghorn Fern for moisture. When the top 50% of the soil at the center is dry, submerge the entire plant, pot, piece of bark, or basket in a sink of lukewarm water for 10-20 minutes. Green fronds fall off a staghorn fern from over-watering. Keep the soil dryer during the winter. You can also thoroughly mist ALL parts of the plant with a fine spray if you don't want to try the soaking method.", 
         temperature: "Temperature for a staghorn fern should be 65°-80°F (18.3°-26.7°C)", 
         poisonous: "A Staghorn Fern is non- poisonous plant and is not toxic to cats, dogs, or humans.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Staghorn-Fern-copy-1-256x112.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Staghorn-Fern-copy-1-256x112.jpg",
+        isSeeded: true
     },
     {
         name: "Strawberry Begonia Plant", 
@@ -1217,7 +1350,8 @@ const startPlants = [
         water: "If the top 2”- 3” of soil in the Strawberry Begonia Plant are still moist, do not water. When the top few inches dry out, water a Strawberry Begonia until water comes out the bottom drip holes. A Strawberry Begonia Plant needs less water in the fall and winter when it is resting. Always water a Strawberry Begonia from the bottom so no water collects on the hairs of the leaves.", 
         temperature: "Strawberry Begonias like cool temperatures and do not thrive when it is too hot. They prefer temperatures between 40-65 degrees(F).", 
         poisonous: "A Strawberry Begonia is a non- poisonous houseplant. It is not in the same family as 'real' begonias (which are ALL poisonous).", 
-        image: "https://www.houseplant411.com/wp-content/uploads/oldimages/Plant_186/634643396560761551-256x180.png"
+        image: "https://www.houseplant411.com/wp-content/uploads/oldimages/Plant_186/634643396560761551-256x180.png",
+        isSeeded: true
     },
     {
         name: "Stromanthe Plant", 
@@ -1226,7 +1360,8 @@ const startPlants = [
         water: "A Stromanthe likes to be kept barely moist at all times. Be careful not to over-water or the roots rot and the plant dies. In winter, allow the soil of a Stromanthe to dry out a little more, but never completely.", 
         temperature: "Stromanthe plants prefer warm temperatures between 65°F and 80°F (18.3°C-26.7°C) during the day and 5° cooler at night. Avoid cold or hot drafts.", 
         poisonous: "A Stromanthe is considered to be a non-toxic plant and safe to have around pets and small children.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/strstr_grande-256x256.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/strstr_grande-256x256.jpg",
+        isSeeded: true
     },
     {
         name: "Swedish Ivy Plant", 
@@ -1235,7 +1370,8 @@ const startPlants = [
         water: "Allow the top 30% of the soil to dry out before watering a Swedish Ivy. The easiest way to kill a Swedish Ivy is by over-watering and causing root rot. Yellow leaves indicate the plant is over-watered. The leaves become soft and dull green when a Swedish Ivy needs water.", 
         temperature: "Provide temperatures between 70°-75°F (21.1°-23.9°C) most of the year for a Swedish Ivy. During the winter, when the plant is not actively growing, cooler temperatures of 60°-65°F (15.6°-23.9°C) are best.", 
         poisonous: "A Swedish Ivy is a non- poisonous plant.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/swedish-ivy-1.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/swedish-ivy-1.jpg",
+        isSeeded: true
     },
     {
         name: "Wandering Jew Plant", 
@@ -1244,7 +1380,8 @@ const startPlants = [
         water: 'How to water a Wandering Jew plant: Water well and then allow the top 2" to 3" of soil dry out before watering again. If the soil is very dry and the plant is sitting in bright light, the leaves become stunted and lose color. Lack of water can also cause brown and crispy leaves on a Wandering Jew plant. This usually problem affects to older growth first. Over watering is more serious, resulting in root rot.', 
         temperature: "Best temperature for a Wandering Jew plant: Try to maintain temperatures between 60°- 80°F (15.6°- 26.7°C).", 
         poisonous: "A Wandering Jew plant is slightly poisonous with a level #1 toxicity. It is toxic to dogs, cats, and small children. The sap of the plant is caustic and may cause skin irritations or a rash. It is, however, considered safe to put into bird or reptile enclosures.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/e452b4f7f94c670d77f0c8a1a9afbb32-256x256.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/e452b4f7f94c670d77f0c8a1a9afbb32-256x256.jpg",
+        isSeeded: true
     },
     {
         name: "Yucca Plant", 
@@ -1253,7 +1390,8 @@ const startPlants = [
         water: "A Yucca plant originates in the deserts of Mexico and Guatemala so it likes to be kept dry. Allow at least the top 50% of the soil of a to dry out before watering. Over watering is the main and probably the only way to kill a yucca.", 
         temperature: "A yucca can adapt to temperatures as low as 35° and as high as 90°.", 
         poisonous: "Yucca plants are slightly poisonous with a #1 toxicity level. The poisonous part of the plant is difficult to reach, but a persistent child or pet might be able to get through the tough exterior and eat it.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/Yucca-elephantipes-14-5432.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/Yucca-elephantipes-14-5432.jpg",
+        isSeeded: true
     },
     {
         name: "Zamioculcas Zamiifolia-ZZ Plant", 
@@ -1263,7 +1401,8 @@ const startPlants = [
         water: "How to water a ZZ plant: Over-watering is the main (and practically the only) way to kill a ZZ plant. This is a plant that stores water in its rhizomes and does do not like wet feet, so allow the soil to dry out before watering. Unlike most plants, a ZZ plant is very forgiving, allowing you to over-water a few times before showing signs of serious damage. Yellow leaves are an indication that the plant has been over-watered or severely under-watered. In very warm weather, a ZZ plant may need water every 7-10 days. In cooler weather, the soil may take 2-3 weeks to dry out. When you water, water well enough so the water comes out the drip holes in the bottom of the pot. Do not allow the plant to sit in the excess water.", 
         temperature: "Best temperature for a ZZ plant: Temperatures between 60°-80°F (15.6°-26.7°C) are best. When the temperatures is below 60°F (16.6°C), the cold air slows down the plant growth.", 
         poisonous: "Is a ZZ plant poisonous: This is an extremely poisonous plant and very toxic to cats and dogs. Keep the plant out of the reach of small children who are tempted by the plump shiny leaves. A ZZ plant has a #4 toxicity level, the very highest level.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/e5db3e44c0e6686d330d2b7797c20adc.png"
+        image: "https://www.houseplant411.com/wp-content/uploads/e5db3e44c0e6686d330d2b7797c20adc.png",
+        isSeeded: true
     },
     {
         name: "Zebra Plant", 
@@ -1272,7 +1411,8 @@ const startPlants = [
         water: "Keep the soil moist but not soggy, and never allow the soil to totally dry out. Bottom leaves drop off a Zebra plant when it is over or under -watered.", 
         temperature: "Zebra plants prefer temperatures between 65°-75°F (18.3°-23.9°C). Prolonged exposure to temperatures below 60°F (15.6°C) causes leaves to fall off.", 
         poisonous: "Zebra plants are non- poisonous.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/800px-Zebra_Plant_Aphelandra_squarrosa-256x144.jpg"
+        image: "https://www.houseplant411.com/wp-content/uploads/800px-Zebra_Plant_Aphelandra_squarrosa-256x144.jpg",
+        isSeeded: true
     }
 ]
 

@@ -46,7 +46,7 @@ router.post("/notes/:plantId", removeBlanks, (req, res, next) => {
             // save the action
             return plant.save()
         })
-        .then(plant => res.status(201).json({ plant : plant }))
+        .then(plant => res.status(201).json({ plant: plant }))
         .catch(next)
 })
 

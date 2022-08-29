@@ -88,7 +88,8 @@ router.patch('/greenhome/myplants/:id', requireToken, removeBlanks, (req, res, n
 	// if the client attempts to change the `owner` property by including a new
 	// owner, prevent that by deleting that key/value pair
 	delete req.body.plant.owner
-
+	delete req.body.plant.notes
+	
 	Plant.findById(req.params.id)
 		.then(handle404)
 		.then((plant) => {

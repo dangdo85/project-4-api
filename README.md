@@ -10,7 +10,7 @@ Back End SME: Lance Nguyen
 
 ## API's
 
-We created our own API that we will seed into the database. 
+We created our own API that we will seed into the database. Info from Houseplants411. 
 
 ## User Stories
 
@@ -136,3 +136,11 @@ timestamp
 ## ERD 
 
 ![](.vscode/planning/10.jpg)
+
+## Client Repo
+
+https://github.com/dangdo85/project-4-client
+
+## Deploy Link
+
+https://greenhomeplants.herokuapp.com/

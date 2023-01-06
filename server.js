@@ -10,6 +10,8 @@ const noteRoutes = require('./app/routes/note_routes')
 const userRoutes = require('./app/routes/user_routes')
 const exampleRoutes = require('./app/routes/example_routes')
 
+
+
 // require middleware
 const errorHandler = require('./lib/error_handler')
 const replaceToken = require('./lib/replace_token')
@@ -73,6 +75,10 @@ app.use(plantRoutes)
 app.use(noteRoutes)
 app.use(userRoutes)
 app.use(exampleRoutes)
+
+app.get(‘/’, (req, res) => {
+	res.send(‘Home Page’)
+})
 
 // register error handling middleware
 // note that this comes after the route middlewares, because it needs to be

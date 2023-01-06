@@ -76,8 +76,8 @@ app.use(noteRoutes)
 app.use(userRoutes)
 app.use(exampleRoutes)
 
-app.get(‘/’, (req, res) => {
-	res.send(‘Home Page’)
+app.get('/', (req, res) => {
+	res.send('Home Page')
 })
 
 // register error handling middleware

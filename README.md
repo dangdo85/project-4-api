@@ -39,7 +39,7 @@ Dependencies are stored in package.json.
 
 The most important file for understanding the structure of the template is server.js. This is where the actual Express app object is created, where the middlewares and routes are registered, and more. To register a routefile, follow the pattern established here with exampleRoutes and userRoutes. If you want to add any middlewares to your app, do that here.
 
-The app directory contains models and route files. Models are simply Mongoose models. To create your own, follow the patterns established in app/models/example.js. Route files are somewhat similar to controllers in Rails, but they cover more functionality, including serialization and deciding which HTTP verbs to accept and what to do with them.
+The app directory contains models and route files. Models are Mongoose models. To create your own, follow the patterns established in app/models/example.js. Route files are somewhat similar to controllers in Rails, but they cover more functionality, including serialization and deciding which HTTP verbs to accept and what to do with them.
 
 The config directory holds just db.js, which is where you specify the name and URL of your database.
 
@@ -143,4 +143,4 @@ https://github.com/dangdo85/project-4-client
 
 ## Deploy Link
 
-https://greenhomeplants.herokuapp.com/
+https://dangdo85-greenhome.netlify.app/

@@ -16,7 +16,7 @@ const startPlants = [
         water: "How often should you water an African Violet plant: How you water is another important factor in helping an African Violet flower. Allow the top 1“- 2“ of soil dry out before watering. Avoid using water that has passed through a softener or water containing chlorine or fluorine. I like to water from the bottom since this helps prevent water getting on the leaves. Set your African Violet in a deep saucer of water for 10 minutes. Refill the water as it is absorbed through the drip holes in the bottom of the pot. Remove any water that is still in the saucer after 10 minutes.", 
         temperature: "Best temperature for an African Violet plant: Temperatures between 75°-80°F (23.9°-26.7C) during the day and about 10° cooler at night are ideal. Keep the plant away from cold drafts and heating vents.", 
         poisonous: "Is an African Violet plant poisonous: This is a non- poisonous plant and an African Violet plant is not toxic to cats, dogs, and is safe to have around small children.", 
-        image: "https://www.houseplant411.com/wp-content/uploads/African-Violet-Plant-256x192.jpg",
+        image: "https://res.cloudinary.com/dk52rqsbb/image/upload/v1673985052/House%20plants/african_violet_plant.jpg",
         isSeeded: true
     },
     {
